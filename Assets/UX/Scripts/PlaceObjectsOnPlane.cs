@@ -7,9 +7,24 @@ using UnityEngine.XR.ARSubsystems;
 [RequireComponent(typeof(ARRaycastManager))]
 public class PlaceObjectsOnPlane : MonoBehaviour
 {
+
+    public ChildToggle childToggleComponent;
+
+    [SerializeField]
+    ARUXAnimationManager m_AnimationManager;
+
+    public ARUXAnimationManager animationManager
+    {
+        get => m_AnimationManager;
+        set => m_AnimationManager = value;
+    }
+
+
     [SerializeField]
     [Tooltip("Instantiates this prefab on a plane at the touch location.")]
     GameObject m_PlacedPrefab;
+
+
 
     /// <summary>
     /// The prefab to instantiate on touch.
@@ -68,7 +83,10 @@ public class PlaceObjectsOnPlane : MonoBehaviour
                     if (m_NumberOfPlacedObjects < m_MaxNumberOfObjectsToPlace)
                     {
                         spawnedObject = Instantiate(m_PlacedPrefab, hitPose.position, hitPose.rotation);
-                        
+                        childToggleComponent.SetPrefabInstance(spawnedObject);
+
+                        m_AnimationManager.ShowPinchElement();
+
                         m_NumberOfPlacedObjects++;
                     }
                     else

@@ -188,7 +188,7 @@ public class UIManager : MonoBehaviour
     {
         ARUXAnimationManager.onFadeOffComplete += FadeComplete;
 
-        PlaceObjectsOnPlane.onPlacedObject += () => m_PlacedObject = true;
+        PlaceObjectsOnPlane.onPlacedObject += PlaceObject;
 
         GetManagers();
         m_UXOrderedQueue = new Queue<UXHandle>();
@@ -381,11 +381,17 @@ public class UIManager : MonoBehaviour
         m_ProcessingInstructions = false;
     }
 
+    void PlaceObject()
+    {
+        m_PlacedObject = true;
+        //m_AnimationManager.ShowPinchElement();
+    }
     bool PlacedObject()
     {
         // reset flag to be used multiple times
         if (m_PlacedObject)
         {
+            //PlaceObject();
             m_PlacedObject = false;
             return true;
         }

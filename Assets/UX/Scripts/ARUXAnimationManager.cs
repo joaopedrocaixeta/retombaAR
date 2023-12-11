@@ -3,6 +3,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
+using System.Collections;
+using static System.Net.Mime.MediaTypeNames;
 
 public class ARUXAnimationManager : MonoBehaviour
 {
@@ -97,6 +99,33 @@ public class ARUXAnimationManager : MonoBehaviour
         set => m_FindFaceClip = value;
     }
 
+
+    [SerializeField]
+    [Tooltip("Image pinch")]
+    UnityEngine.UI.Image m_pinchImage;
+
+    /// <summary>
+    /// Get the <c>Find face iamge</c>
+    /// </summary>
+    public UnityEngine.UI.Image pinchImage
+    {
+        get => m_pinchImage;
+        set => m_pinchImage = value;
+    }
+
+    [SerializeField]
+    [Tooltip("Image pinch")]
+    TMP_Text m_pinchText;
+
+    /// <summary>
+    /// Get the <c>Find face iamge</c>
+    /// </summary>
+    public TMP_Text pinchText
+    {
+        get => m_pinchText;
+        set => m_pinchText = value;
+    }
+
     [SerializeField]
     [Tooltip("ARKit Coaching overlay reference")]
     ARKitCoachingOverlay m_CoachingOverlay;
@@ -156,6 +185,7 @@ public class ARUXAnimationManager : MonoBehaviour
     const string k_FindAFaceText = "Find a Face to Track";
     const string k_FindClipText = "Find an Image to Track";
     const string k_FindObjectText = "Find an Object to Track";
+    const string k_PinchElementText = "Dê zoom e rotacione o objeto";
 
     public static event Action onFadeOffComplete;
 
@@ -268,6 +298,26 @@ public class ARUXAnimationManager : MonoBehaviour
         }
         
         m_FadeOn = true;
+    }
+
+    public void ShowPinchElement()
+    {
+        StartCoroutine(DisplayImage());
+        //m_InstructionText.text = k_PinchElementText;
+
+    }
+
+    IEnumerator DisplayImage()
+    {
+        yield return new WaitForSeconds(1f);
+        pinchImage.enabled = true;
+        pinchText.enabled = true;
+        pinchImage.color = m_White;
+        pinchText.color = m_White;
+        yield return new WaitForSeconds(5f);
+        pinchImage.color = m_AlphaWhite;
+        pinchText.color = m_AlphaWhite;
+        pinchImage.enabled = false;
     }
 
     public void ShowFindImage()

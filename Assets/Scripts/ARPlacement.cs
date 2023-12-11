@@ -24,7 +24,7 @@ public class ARPlacement : MonoBehaviour
 
     void Start()
     {
-        aRRaycastManager = FindObjectOfType<ARRaycastManager>();
+        //aRRaycastManager = FindObjectOfType<ARRaycastManager>();
     }
 
     // need to update placement indicator, placement pose and spawn 
@@ -33,17 +33,19 @@ public class ARPlacement : MonoBehaviour
 
         if (Input.touchCount > 0)
         {
-            Touch touch = Input.GetTouch(0); // get the first touch
+            GetSpawnedObjectChildren();
+            /*Touch touch = Input.GetTouch(0); // get the first touch
             Vector2 touchPosition = touch.position; // get the touch position
 
-            ARRaycasting(touchPosition);
+            ARRaycasting(touchPosition);*/
         }
         else if (Input.GetMouseButton(0))
         {
-            Vector3 mousePosition = Input.mousePosition;
+            GetSpawnedObjectChildren();
+            /*Vector3 mousePosition = Input.mousePosition;
             Vector2 mousePosition2D = new Vector2(mousePosition.x, mousePosition.y);
 
-            ARRaycasting(mousePosition2D);
+            ARRaycasting(mousePosition2D);*/
         }
     }
 
@@ -60,9 +62,9 @@ public class ARPlacement : MonoBehaviour
     {
         if (spawnedObject != null)
         {
-            church.SetActive(true);
-            bigChurch.SetActive(false);
-            station.SetActive(false);
+            GameObject.Find("igreja1").SetActive(true);
+            GameObject.Find("matrizFinal").SetActive(false);
+            GameObject.Find("estacaoRodoviariaFinal").SetActive(false);
         }
     }
     public void ActivateBigChurch()
@@ -70,26 +72,26 @@ public class ARPlacement : MonoBehaviour
         if (spawnedObject != null)
         {
             church.SetActive(false);
-            bigChurch.SetActive(true);
-            station.SetActive(false);
+            GameObject.Find("matrizFinal").SetActive(true);
+            GameObject.Find("estacaoRodoviariaFinal").SetActive(false);
         }
     }
     public void ActivateStation()
     {
         if (spawnedObject != null)
         {
-            church.SetActive(false);
-            bigChurch.SetActive(false);
-            station.SetActive(true);
+            GameObject.Find("igreja1").SetActive(false);
+            GameObject.Find("matrizFinal").SetActive(false);
+            GameObject.Find("estacaoRodoviariaFinal").SetActive(true);
         }
     }
     public void DeactivateAll()
     {
         if (spawnedObject != null)
         {
-            church.SetActive(false);
-            bigChurch.SetActive(false);
-            station.SetActive(false);
+            GameObject.Find("igreja1").SetActive(false);
+            GameObject.Find("matrizFinal").SetActive(false);
+            GameObject.Find("estacaoRodoviariaFinal").SetActive(false);
         }
     }
 

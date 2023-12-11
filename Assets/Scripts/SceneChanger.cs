@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+using static System.Net.Mime.MediaTypeNames;
+
 public class SceneChanger : MonoBehaviour
 {
     public void LoadMenu()
     {
-        SceneManager.LoadScene(1);
+       SceneManager.LoadScene(1);
     }
 
     public void LoadScene(string sceneName)
