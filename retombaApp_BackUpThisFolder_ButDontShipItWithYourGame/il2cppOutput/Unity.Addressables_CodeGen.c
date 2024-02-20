@@ -1,0 +1,1088 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> PackedPlayModeBuildLogs::get_RuntimeBuildLogs()
+extern void PackedPlayModeBuildLogs_get_RuntimeBuildLogs_m2A62CE1FAC6164FD6B0D89993B38230C9D8256E9 (void);
+// 0x00000002 System.Void PackedPlayModeBuildLogs::.ctor()
+extern void PackedPlayModeBuildLogs__ctor_mCA7D3DF16DA06CC7A356906C32B466EAA5D57189 (void);
+// 0x00000003 System.Void UnityEngine.ResourceManagement.AsyncOperations.InitalizationObjectsOperation::Init(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData>,UnityEngine.AddressableAssets.AddressablesImpl)
+extern void InitalizationObjectsOperation_Init_m5C261C641269B76CEAA9774EF4A621EA846EEB5D (void);
+// 0x00000004 System.String UnityEngine.ResourceManagement.AsyncOperations.InitalizationObjectsOperation::get_DebugName()
+extern void InitalizationObjectsOperation_get_DebugName_m851C38457F31826B52E531C6E783121AF5B6BD5C (void);
+// 0x00000005 System.Boolean UnityEngine.ResourceManagement.AsyncOperations.InitalizationObjectsOperation::LogRuntimeWarnings(System.String)
+extern void InitalizationObjectsOperation_LogRuntimeWarnings_m00AE676D1FCCD48675884FE9DD20F5D1F684AEDA (void);
+// 0x00000006 System.Boolean UnityEngine.ResourceManagement.AsyncOperations.InitalizationObjectsOperation::InvokeWaitForCompletion()
+extern void InitalizationObjectsOperation_InvokeWaitForCompletion_mE8FAF7DB4D7D10F22C4FC6DF3A26CAA0ADC6D5FD (void);
+// 0x00000007 System.Void UnityEngine.ResourceManagement.AsyncOperations.InitalizationObjectsOperation::Execute()
+extern void InitalizationObjectsOperation_Execute_mBD7C50B85F47EE0269BBBE721B5195D4AAC1A3ED (void);
+// 0x00000008 System.Void UnityEngine.ResourceManagement.AsyncOperations.InitalizationObjectsOperation::.ctor()
+extern void InitalizationObjectsOperation__ctor_m1C106B8E7787E7E178E17DBFDD984EEE88C13A33 (void);
+// 0x00000009 System.Void UnityEngine.ResourceManagement.AsyncOperations.InitalizationObjectsOperation::<Execute>b__8_0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>>)
+extern void InitalizationObjectsOperation_U3CExecuteU3Eb__8_0_m1AA291DA4F801F4D169E0D3BABF6501F7265E51B (void);
+// 0x0000000A System.Object UnityEngine.AddressableAssets.InvalidKeyException::get_Key()
+extern void InvalidKeyException_get_Key_m04CFA5445F268B1738B83E149DA2A560A789A291 (void);
+// 0x0000000B System.Void UnityEngine.AddressableAssets.InvalidKeyException::set_Key(System.Object)
+extern void InvalidKeyException_set_Key_mCDC4F50DA79B43EE22E693752C230A727E520F1A (void);
+// 0x0000000C System.Type UnityEngine.AddressableAssets.InvalidKeyException::get_Type()
+extern void InvalidKeyException_get_Type_mFCF9566F7A5F7ECEF09376CD0D95CC78ACE44633 (void);
+// 0x0000000D System.Void UnityEngine.AddressableAssets.InvalidKeyException::set_Type(System.Type)
+extern void InvalidKeyException_set_Type_m95D438D9D2D16C60E66334D606F8CCE73928A0CB (void);
+// 0x0000000E System.Nullable`1<UnityEngine.AddressableAssets.Addressables/MergeMode> UnityEngine.AddressableAssets.InvalidKeyException::get_MergeMode()
+extern void InvalidKeyException_get_MergeMode_m3B874B38F69384DAF973604A6946E0F21AE1360F (void);
+// 0x0000000F System.Void UnityEngine.AddressableAssets.InvalidKeyException::.ctor(System.Object,System.Type,UnityEngine.AddressableAssets.AddressablesImpl)
+extern void InvalidKeyException__ctor_mB9F03E732D5DA73676D6DF8EC03DEA22200B7BA3 (void);
+// 0x00000010 System.String UnityEngine.AddressableAssets.InvalidKeyException::get_Message()
+extern void InvalidKeyException_get_Message_mDB7371B5C9392DA9F8B939BC774A21B5EE372112 (void);
+// 0x00000011 System.String UnityEngine.AddressableAssets.InvalidKeyException::GetMessageForSingleKey(System.String)
+extern void InvalidKeyException_GetMessageForSingleKey_m5374F963B1E10C773466862AD10ECF4FF3759BB7 (void);
+// 0x00000012 System.String UnityEngine.AddressableAssets.InvalidKeyException::GetMessageforMergeKeys(System.Collections.Generic.List`1<System.String>)
+extern void InvalidKeyException_GetMessageforMergeKeys_mA2BBC8F4622CAACCB2A3B5CC42CDAF38AE061397 (void);
+// 0x00000013 System.Collections.Generic.HashSet`1<System.Type> UnityEngine.AddressableAssets.InvalidKeyException::GetTypesForKey(System.String)
+extern void InvalidKeyException_GetTypesForKey_m9DC047CFA2835A0E6CD415A8A6D42C9DD8F91F4F (void);
+// 0x00000014 System.Boolean UnityEngine.AddressableAssets.InvalidKeyException::GetTypeToKeys(System.String,System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<System.String>>)
+extern void InvalidKeyException_GetTypeToKeys_m6B2D3ECD7BE86E4A2D5820995E129AA401E7F0E1 (void);
+// 0x00000015 System.String UnityEngine.AddressableAssets.InvalidKeyException::GetCSVString(System.Collections.Generic.IEnumerable`1<System.String>,System.String,System.String)
+extern void InvalidKeyException_GetCSVString_m8BEE349B248FE9D98DCD0AE3493E8E1D2E2AFE88 (void);
+// 0x00000016 UnityEngine.AddressableAssets.AddressablesImpl UnityEngine.AddressableAssets.Addressables::get_m_Addressables()
+extern void Addressables_get_m_Addressables_mCBFD180C3722D8CE681814A67B652682C6710BEE (void);
+// 0x00000017 UnityEngine.ResourceManagement.ResourceManager UnityEngine.AddressableAssets.Addressables::get_ResourceManager()
+extern void Addressables_get_ResourceManager_m480AE4DB9D40EABEF022FDAEA00A043DA52D1D5E (void);
+// 0x00000018 System.String UnityEngine.AddressableAssets.Addressables::ResolveInternalId(System.String)
+extern void Addressables_ResolveInternalId_mF1D3A8B02C0D6741CB72AD8A55D5E82A36AA1782 (void);
+// 0x00000019 System.Void UnityEngine.AddressableAssets.Addressables::LogWarning(System.String)
+extern void Addressables_LogWarning_mE6B724D5D8608F3B426E8CFB94917FE28D6B851B (void);
+// 0x0000001A System.Void UnityEngine.AddressableAssets.Addressables::LogWarningFormat(System.String,System.Object[])
+extern void Addressables_LogWarningFormat_m113FDAC9E0B6D6D25774FBE6AD2E1BA82DCC5AE9 (void);
+// 0x0000001B System.Void UnityEngine.AddressableAssets.Addressables::LogError(System.String)
+extern void Addressables_LogError_m14F9E54E8D0491FFE0254C08E7433BCB7D3119B6 (void);
+// 0x0000001C System.Void UnityEngine.AddressableAssets.Addressables::LogErrorFormat(System.String,System.Object[])
+extern void Addressables_LogErrorFormat_m37C249A86F953A975C66573FA9A33F7C35F5D647 (void);
+// 0x0000001D UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> UnityEngine.AddressableAssets.Addressables::LoadAssetAsync(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+// 0x0000001E UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> UnityEngine.AddressableAssets.Addressables::LoadAssetAsync(System.Object)
+// 0x0000001F UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> UnityEngine.AddressableAssets.Addressables::LoadResourceLocationsAsync(System.Collections.IEnumerable,UnityEngine.AddressableAssets.Addressables/MergeMode,System.Type)
+extern void Addressables_LoadResourceLocationsAsync_mA7BC8A23176D4E1BAF0279763F81FEAB57F2BE43 (void);
+// 0x00000020 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> UnityEngine.AddressableAssets.Addressables::LoadResourceLocationsAsync(System.Object,System.Type)
+extern void Addressables_LoadResourceLocationsAsync_m96BF35184F12370BCD9A304065F42D080D7EE18B (void);
+// 0x00000021 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> UnityEngine.AddressableAssets.Addressables::LoadAssetsAsync(System.Object,System.Action`1<TObject>)
+// 0x00000022 System.Void UnityEngine.AddressableAssets.Addressables::Release(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)
+extern void Addressables_Release_m0A186637EB825A9C793E94DD9D5B00842EC67589 (void);
+// 0x00000023 System.Void UnityEngine.AddressableAssets.Addressables::.cctor()
+extern void Addressables__cctor_m9269D2DB2C8115DAF077A0A3801015469F9825BE (void);
+// 0x00000024 UnityEngine.ResourceManagement.ResourceProviders.IInstanceProvider UnityEngine.AddressableAssets.AddressablesImpl::get_InstanceProvider()
+extern void AddressablesImpl_get_InstanceProvider_m8BC14A958EB91A2BD3A686758670C728190A6090 (void);
+// 0x00000025 System.Void UnityEngine.AddressableAssets.AddressablesImpl::set_InstanceProvider(UnityEngine.ResourceManagement.ResourceProviders.IInstanceProvider)
+extern void AddressablesImpl_set_InstanceProvider_mA92B463DD7BCDB14B2EDCD84F58D7F595CC5A01F (void);
+// 0x00000026 UnityEngine.ResourceManagement.ResourceManager UnityEngine.AddressableAssets.AddressablesImpl::get_ResourceManager()
+extern void AddressablesImpl_get_ResourceManager_mFCBBB9F321655F40BDD1CAF07194C1AA40BCB656 (void);
+// 0x00000027 System.Void UnityEngine.AddressableAssets.AddressablesImpl::set_CatalogRequestsTimeout(System.Int32)
+extern void AddressablesImpl_set_CatalogRequestsTimeout_mBD266E78770ADCFBEFFADF14AA524B67CE2222DD (void);
+// 0x00000028 System.Int32 UnityEngine.AddressableAssets.AddressablesImpl::get_SceneOperationCount()
+extern void AddressablesImpl_get_SceneOperationCount_m0E34C64E4228D8AEF0FE3C98A663784CA111BC55 (void);
+// 0x00000029 System.Void UnityEngine.AddressableAssets.AddressablesImpl::.ctor(UnityEngine.ResourceManagement.Util.IAllocationStrategy)
+extern void AddressablesImpl__ctor_m0D145411AE0D75A5FD395FACBE97807535D02974 (void);
+// 0x0000002A UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle UnityEngine.AddressableAssets.AddressablesImpl::get_ChainOperation()
+extern void AddressablesImpl_get_ChainOperation_mD1E214493952096323F333E3315296E79C812DCE (void);
+// 0x0000002B System.Boolean UnityEngine.AddressableAssets.AddressablesImpl::get_ShouldChainRequest()
+extern void AddressablesImpl_get_ShouldChainRequest_m7B0C3F2F8AC53881B87AB144601A4E80DE69560D (void);
+// 0x0000002C System.Void UnityEngine.AddressableAssets.AddressablesImpl::OnSceneUnloaded(UnityEngine.SceneManagement.Scene)
+extern void AddressablesImpl_OnSceneUnloaded_m3BE985BC72C4FC0E4046123CB977B7E6AACCF4C8 (void);
+// 0x0000002D System.String UnityEngine.AddressableAssets.AddressablesImpl::get_StreamingAssetsSubFolder()
+extern void AddressablesImpl_get_StreamingAssetsSubFolder_m836CFC1375369C5895DEA6E1D779DC09A466C31B (void);
+// 0x0000002E System.String UnityEngine.AddressableAssets.AddressablesImpl::get_PlayerBuildDataPath()
+extern void AddressablesImpl_get_PlayerBuildDataPath_m29B43E1D45B38754C648ABECDB7C9783E12CFD8B (void);
+// 0x0000002F System.String UnityEngine.AddressableAssets.AddressablesImpl::get_RuntimePath()
+extern void AddressablesImpl_get_RuntimePath_m516C45F2BF5F5622F31FC11CD967DDDD02CCBE6A (void);
+// 0x00000030 System.Void UnityEngine.AddressableAssets.AddressablesImpl::LogWarning(System.String)
+extern void AddressablesImpl_LogWarning_m1A027072AF03D4E499CF922978CBED57344AAF8A (void);
+// 0x00000031 System.Void UnityEngine.AddressableAssets.AddressablesImpl::LogWarningFormat(System.String,System.Object[])
+extern void AddressablesImpl_LogWarningFormat_mE3F74A1473E680C02FAB802B2FBA8779BBA4ECC2 (void);
+// 0x00000032 System.Void UnityEngine.AddressableAssets.AddressablesImpl::LogError(System.String)
+extern void AddressablesImpl_LogError_m52A2B1A6E3B166A075222CE0D00EB3124ECCB0D0 (void);
+// 0x00000033 System.Void UnityEngine.AddressableAssets.AddressablesImpl::LogException(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,System.Exception)
+extern void AddressablesImpl_LogException_m8F960C2ADDA73A9E3F99D14AEB0BF77209E0966E (void);
+// 0x00000034 System.Void UnityEngine.AddressableAssets.AddressablesImpl::LogErrorFormat(System.String,System.Object[])
+extern void AddressablesImpl_LogErrorFormat_m9CA5AD09EC3AAE49EC71065499CEE0ED3E5F1B05 (void);
+// 0x00000035 System.String UnityEngine.AddressableAssets.AddressablesImpl::ResolveInternalId(System.String)
+extern void AddressablesImpl_ResolveInternalId_m858249BA7A7A6C41684815D2A09618EEC81F48CC (void);
+// 0x00000036 System.Collections.Generic.IEnumerable`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> UnityEngine.AddressableAssets.AddressablesImpl::get_ResourceLocators()
+extern void AddressablesImpl_get_ResourceLocators_m8E2213BC51CCDBF257902E4E17E0C9385457288F (void);
+// 0x00000037 System.Void UnityEngine.AddressableAssets.AddressablesImpl::AddResourceLocator(UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator,System.String,UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+extern void AddressablesImpl_AddResourceLocator_m4B7B6E7D82E6F6D3B11BC865C417A5C4F891A0FE (void);
+// 0x00000038 System.Void UnityEngine.AddressableAssets.AddressablesImpl::RemoveResourceLocator(UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator)
+extern void AddressablesImpl_RemoveResourceLocator_m3648D6A6C2FDA74776BD0EAB41E370D06EC952A5 (void);
+// 0x00000039 System.Boolean UnityEngine.AddressableAssets.AddressablesImpl::GetResourceLocations(System.Object,System.Type,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>&)
+extern void AddressablesImpl_GetResourceLocations_m51B702F089F2E776BFB4D3C0D3C0CF982B1C77F1 (void);
+// 0x0000003A System.Boolean UnityEngine.AddressableAssets.AddressablesImpl::GetResourceLocations(System.Collections.IEnumerable,System.Type,UnityEngine.AddressableAssets.Addressables/MergeMode,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>&)
+extern void AddressablesImpl_GetResourceLocations_m868373B7918DBF99851290C662E7A92E06EEB982 (void);
+// 0x0000003B UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> UnityEngine.AddressableAssets.AddressablesImpl::InitializeAsync(System.String,System.String,System.Boolean)
+extern void AddressablesImpl_InitializeAsync_mA3C3DC099508914EF7A101A6DD6D8D5F9B6D1245 (void);
+// 0x0000003C UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> UnityEngine.AddressableAssets.AddressablesImpl::InitializeAsync()
+extern void AddressablesImpl_InitializeAsync_m39F307E3349132C26AEA3CDB5711109DB64AD358 (void);
+// 0x0000003D UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> UnityEngine.AddressableAssets.AddressablesImpl::TrackHandle(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>)
+// 0x0000003E UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> UnityEngine.AddressableAssets.AddressablesImpl::LoadAssetAsync(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+// 0x0000003F UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> UnityEngine.AddressableAssets.AddressablesImpl::LoadAssetWithChain(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,System.Object)
+// 0x00000040 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> UnityEngine.AddressableAssets.AddressablesImpl::LoadAssetAsync(System.Object)
+// 0x00000041 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> UnityEngine.AddressableAssets.AddressablesImpl::LoadResourceLocationsWithChain(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,System.Collections.IEnumerable,UnityEngine.AddressableAssets.Addressables/MergeMode,System.Type)
+extern void AddressablesImpl_LoadResourceLocationsWithChain_mD0C9A4B25EF3217C5BBBC0C3B95BBFA1E006516F (void);
+// 0x00000042 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> UnityEngine.AddressableAssets.AddressablesImpl::LoadResourceLocationsAsync(System.Collections.IEnumerable,UnityEngine.AddressableAssets.Addressables/MergeMode,System.Type)
+extern void AddressablesImpl_LoadResourceLocationsAsync_m2B02B077B4C9EBF5AF34FFE2C7066A94CD1D7DC4 (void);
+// 0x00000043 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> UnityEngine.AddressableAssets.AddressablesImpl::LoadResourceLocationsWithChain(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,System.Object,System.Type)
+extern void AddressablesImpl_LoadResourceLocationsWithChain_mBE480C20C62FC3427B07DBF7B81998D81ED87083 (void);
+// 0x00000044 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> UnityEngine.AddressableAssets.AddressablesImpl::LoadResourceLocationsAsync(System.Object,System.Type)
+extern void AddressablesImpl_LoadResourceLocationsAsync_m507C5B218CA7202B33C9E3C16AA442FD9E2F0A16 (void);
+// 0x00000045 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> UnityEngine.AddressableAssets.AddressablesImpl::LoadAssetsAsync(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>,System.Action`1<TObject>,System.Boolean)
+// 0x00000046 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> UnityEngine.AddressableAssets.AddressablesImpl::LoadAssetsWithChain(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,System.Object,System.Action`1<TObject>,System.Boolean)
+// 0x00000047 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> UnityEngine.AddressableAssets.AddressablesImpl::LoadAssetsAsync(System.Object,System.Action`1<TObject>,System.Boolean)
+// 0x00000048 System.Void UnityEngine.AddressableAssets.AddressablesImpl::OnHandleDestroyed(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)
+extern void AddressablesImpl_OnHandleDestroyed_m48205B3E1BBA2C490C9737E3EF61F2CC0294CD43 (void);
+// 0x00000049 System.Void UnityEngine.AddressableAssets.AddressablesImpl::OnSceneHandleCompleted(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)
+extern void AddressablesImpl_OnSceneHandleCompleted_m542A4475E4DA62372E5F423BF70A0363F141EA87 (void);
+// 0x0000004A System.Void UnityEngine.AddressableAssets.AddressablesImpl::OnHandleCompleted(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)
+extern void AddressablesImpl_OnHandleCompleted_m0F6517BB79B2FFEF7D3DCB8D5B19D1DEDE90B38E (void);
+// 0x0000004B System.Void UnityEngine.AddressableAssets.AddressablesImpl::Release(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>)
+// 0x0000004C System.Void UnityEngine.AddressableAssets.AddressablesImpl::Release(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)
+extern void AddressablesImpl_Release_mBCA4FCEFB7E34BD7DA17F90CC86028197383A61D (void);
+// 0x0000004D System.Void UnityEngine.AddressableAssets.AddressablesImpl::AutoReleaseHandleOnCompletion(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>)
+// 0x0000004E System.Void UnityEngine.AddressableAssets.AddressablesImpl::AutoReleaseHandleOnCompletion(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>,System.Boolean)
+// 0x0000004F UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnityEngine.AddressableAssets.AddressablesImpl::UnloadSceneAsync(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,UnityEngine.SceneManagement.UnloadSceneOptions,System.Boolean)
+extern void AddressablesImpl_UnloadSceneAsync_m37210AD09729FEAF3F075450BCC9A7C38B6A488C (void);
+// 0x00000050 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnityEngine.AddressableAssets.AddressablesImpl::UnloadSceneAsync(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>,UnityEngine.SceneManagement.UnloadSceneOptions,System.Boolean)
+extern void AddressablesImpl_UnloadSceneAsync_mBD793D435D1FFC95B2F575701E2B05F78D67C4C3 (void);
+// 0x00000051 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnityEngine.AddressableAssets.AddressablesImpl::CreateUnloadSceneWithChain(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,UnityEngine.SceneManagement.UnloadSceneOptions,System.Boolean)
+extern void AddressablesImpl_CreateUnloadSceneWithChain_m4773DCFDCD481D0677ED8738A34DDF1C2E97964F (void);
+// 0x00000052 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnityEngine.AddressableAssets.AddressablesImpl::CreateUnloadSceneWithChain(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>,UnityEngine.SceneManagement.UnloadSceneOptions,System.Boolean)
+extern void AddressablesImpl_CreateUnloadSceneWithChain_m217E2D006EAAEA5FE9140909C3E4D823A11ED527 (void);
+// 0x00000053 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnityEngine.AddressableAssets.AddressablesImpl::InternalUnloadScene(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>,UnityEngine.SceneManagement.UnloadSceneOptions,System.Boolean)
+extern void AddressablesImpl_InternalUnloadScene_mFFCE1581450DEFA20442388F93A496C50C2C0B71 (void);
+// 0x00000054 System.Object UnityEngine.AddressableAssets.AddressablesImpl::EvaluateKey(System.Object)
+extern void AddressablesImpl_EvaluateKey_mF8F0DBA33B0A60464585E2422A6D054E34E8B4F8 (void);
+// 0x00000055 System.Boolean UnityEngine.AddressableAssets.AddressablesImpl::Equals(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+extern void AddressablesImpl_Equals_m9C9049FC1B9E31A96E7440E849688849815B79AA (void);
+// 0x00000056 System.Int32 UnityEngine.AddressableAssets.AddressablesImpl::GetHashCode(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+extern void AddressablesImpl_GetHashCode_m9AFBC9F6CD9EEB911131180B201E42969DF95DA7 (void);
+// 0x00000057 System.Void UnityEngine.AddressableAssets.AddressablesImpl::<AutoReleaseHandleOnCompletion>b__110_0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>)
+// 0x00000058 UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator UnityEngine.AddressableAssets.AddressablesImpl/ResourceLocatorInfo::get_Locator()
+extern void ResourceLocatorInfo_get_Locator_m7EA5D661DF4964E728CBA01D589ABBD5C9688218 (void);
+// 0x00000059 System.Void UnityEngine.AddressableAssets.AddressablesImpl/ResourceLocatorInfo::set_Locator(UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator)
+extern void ResourceLocatorInfo_set_Locator_m6C45410FDF734BEFC3CCBBB5DFFD0E257C8F2F79 (void);
+// 0x0000005A System.Void UnityEngine.AddressableAssets.AddressablesImpl/ResourceLocatorInfo::set_LocalHash(System.String)
+extern void ResourceLocatorInfo_set_LocalHash_m962C33927DE0872B6E62D20A5635A52B9A75F1C8 (void);
+// 0x0000005B System.Void UnityEngine.AddressableAssets.AddressablesImpl/ResourceLocatorInfo::set_CatalogLocation(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+extern void ResourceLocatorInfo_set_CatalogLocation_mD750CFC8409CFE135638F43EDCA4F7E7D8EA0B41 (void);
+// 0x0000005C System.Void UnityEngine.AddressableAssets.AddressablesImpl/ResourceLocatorInfo::.ctor(UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator,System.String,UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+extern void ResourceLocatorInfo__ctor_m1CF22FC6C1EB0BEF51A5A5FDBC5FDBEA06749DE7 (void);
+// 0x0000005D System.String UnityEngine.AddressableAssets.AddressablesImpl/LoadResourceLocationKeyOp::get_DebugName()
+extern void LoadResourceLocationKeyOp_get_DebugName_m7182C31D9604CBB0162CA85BCA00F146B604C0BD (void);
+// 0x0000005E System.Void UnityEngine.AddressableAssets.AddressablesImpl/LoadResourceLocationKeyOp::Init(UnityEngine.AddressableAssets.AddressablesImpl,System.Type,System.Object)
+extern void LoadResourceLocationKeyOp_Init_mC9E0250DEE601A85A904837AB8B7DFDE38768889 (void);
+// 0x0000005F System.Boolean UnityEngine.AddressableAssets.AddressablesImpl/LoadResourceLocationKeyOp::InvokeWaitForCompletion()
+extern void LoadResourceLocationKeyOp_InvokeWaitForCompletion_m8C6DCBB4BB0EFAE3A7D4B8B98C67649881DB2250 (void);
+// 0x00000060 System.Void UnityEngine.AddressableAssets.AddressablesImpl/LoadResourceLocationKeyOp::Execute()
+extern void LoadResourceLocationKeyOp_Execute_mAFA1E3E5CF26E7DDFFD39CC87023F80796B2AFD2 (void);
+// 0x00000061 System.Void UnityEngine.AddressableAssets.AddressablesImpl/LoadResourceLocationKeyOp::.ctor()
+extern void LoadResourceLocationKeyOp__ctor_mB595D261116AA11C4A07330E3E86560D05394044 (void);
+// 0x00000062 System.String UnityEngine.AddressableAssets.AddressablesImpl/LoadResourceLocationKeysOp::get_DebugName()
+extern void LoadResourceLocationKeysOp_get_DebugName_m4C1800E01BE2301FD440FD23835F102F78978C15 (void);
+// 0x00000063 System.Void UnityEngine.AddressableAssets.AddressablesImpl/LoadResourceLocationKeysOp::Init(UnityEngine.AddressableAssets.AddressablesImpl,System.Type,System.Collections.IEnumerable,UnityEngine.AddressableAssets.Addressables/MergeMode)
+extern void LoadResourceLocationKeysOp_Init_m0B0FB4F0FEF6A6CE880EE39AB8A55A2FA4403D03 (void);
+// 0x00000064 System.Void UnityEngine.AddressableAssets.AddressablesImpl/LoadResourceLocationKeysOp::Execute()
+extern void LoadResourceLocationKeysOp_Execute_m45739EC09ED6412F383E7B03C7CBD2C152357234 (void);
+// 0x00000065 System.Boolean UnityEngine.AddressableAssets.AddressablesImpl/LoadResourceLocationKeysOp::InvokeWaitForCompletion()
+extern void LoadResourceLocationKeysOp_InvokeWaitForCompletion_mE0E2D9BB217B3F830A6D56E3BBE07D862567822D (void);
+// 0x00000066 System.Void UnityEngine.AddressableAssets.AddressablesImpl/LoadResourceLocationKeysOp::.ctor()
+extern void LoadResourceLocationKeysOp__ctor_mB930530F598048D7253C4F9346DD6F7C55FB8C56 (void);
+// 0x00000067 System.Void UnityEngine.AddressableAssets.AddressablesImpl/<>c::.cctor()
+extern void U3CU3Ec__cctor_m65F36F3B1EDBCF7D5815B0324971AFDAAD1A1654 (void);
+// 0x00000068 System.Void UnityEngine.AddressableAssets.AddressablesImpl/<>c::.ctor()
+extern void U3CU3Ec__ctor_m174D0B02F3D309C783651F872C869FA2462C9D57 (void);
+// 0x00000069 UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator UnityEngine.AddressableAssets.AddressablesImpl/<>c::<get_ResourceLocators>b__60_0(UnityEngine.AddressableAssets.AddressablesImpl/ResourceLocatorInfo)
+extern void U3CU3Ec_U3Cget_ResourceLocatorsU3Eb__60_0_m381AF0135A99D488B8A8611E6B164C2A0FD7C906 (void);
+// 0x0000006A System.Void UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass62_0::.ctor()
+extern void U3CU3Ec__DisplayClass62_0__ctor_mF77AA31AC125BA39D47ECB5084B974D7C75C82A8 (void);
+// 0x0000006B System.Boolean UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass62_0::<RemoveResourceLocator>b__0(UnityEngine.AddressableAssets.AddressablesImpl/ResourceLocatorInfo)
+extern void U3CU3Ec__DisplayClass62_0_U3CRemoveResourceLocatorU3Eb__0_m9BDCEF8C7309E507C5856AF0033300B9257A64E3 (void);
+// 0x0000006C System.Void UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass77_0`1::.ctor()
+// 0x0000006D UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass77_0`1::<LoadAssetWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)
+// 0x0000006E System.Void UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass81_0::.ctor()
+extern void U3CU3Ec__DisplayClass81_0__ctor_mE04ABC7C07FE193FD791DCECAD48DA7A6C0E4108 (void);
+// 0x0000006F UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass81_0::<LoadResourceLocationsWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)
+extern void U3CU3Ec__DisplayClass81_0_U3CLoadResourceLocationsWithChainU3Eb__0_mE3778708F20BDBE1F33B707472E990E4A6E5046B (void);
+// 0x00000070 System.Void UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass83_0::.ctor()
+extern void U3CU3Ec__DisplayClass83_0__ctor_mDD6F3FCC7B2EAC2546437094AA8CD187057E4F49 (void);
+// 0x00000071 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass83_0::<LoadResourceLocationsWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)
+extern void U3CU3Ec__DisplayClass83_0_U3CLoadResourceLocationsWithChainU3Eb__0_mE9A8D713FC4E61BC01B0799BBD61721026033A67 (void);
+// 0x00000072 System.Void UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass88_0`1::.ctor()
+// 0x00000073 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass88_0`1::<LoadAssetsWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)
+// 0x00000074 System.Void UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass111_0`1::.ctor()
+// 0x00000075 System.Void UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass111_0`1::<AutoReleaseHandleOnCompletion>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>)
+// 0x00000076 System.Void UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass131_0::.ctor()
+extern void U3CU3Ec__DisplayClass131_0__ctor_m914A7E92FCC5F11BF4C778233EE7E5D49868B859 (void);
+// 0x00000077 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass131_0::<CreateUnloadSceneWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)
+extern void U3CU3Ec__DisplayClass131_0_U3CCreateUnloadSceneWithChainU3Eb__0_mE30BF5DFE57944D8FAF6E4D1E1284C6A54804AA3 (void);
+// 0x00000078 System.Void UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass132_0::.ctor()
+extern void U3CU3Ec__DisplayClass132_0__ctor_m07201C8D24FBFAFF2218EA0951D53EDDB655744E (void);
+// 0x00000079 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass132_0::<CreateUnloadSceneWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>)
+extern void U3CU3Ec__DisplayClass132_0_U3CCreateUnloadSceneWithChainU3Eb__0_m979FA98EFEE79DEC232FBE17EADC020261147D8E (void);
+// 0x0000007A System.Object UnityEngine.AddressableAssets.AssetReference::get_RuntimeKey()
+extern void AssetReference_get_RuntimeKey_mB52D387E5244EAD047745D2A8904DA0D9C864F74 (void);
+// 0x0000007B System.Type UnityEngine.AddressableAssets.AssetReference::get_SubOjbectType()
+extern void AssetReference_get_SubOjbectType_mC090A0EE55581CADB950F2884C1C69553D36885C (void);
+// 0x0000007C System.Void UnityEngine.AddressableAssets.AssetReference::.ctor()
+extern void AssetReference__ctor_m1B9255F08152E57E683A1C4DB603BF2C75605BAB (void);
+// 0x0000007D System.String UnityEngine.AddressableAssets.AssetReference::ToString()
+extern void AssetReference_ToString_mBBCBADD628EC8D46171956F79B4F869DE8688FCE (void);
+// 0x0000007E System.Object UnityEngine.AddressableAssets.IKeyEvaluator::get_RuntimeKey()
+// 0x0000007F System.String UnityEngine.AddressableAssets.DynamicResourceLocator::get_AtlasSpriteProviderId()
+extern void DynamicResourceLocator_get_AtlasSpriteProviderId_m8B5E40CB4D132AFFB7A73BB55121DCEF3F27C591 (void);
+// 0x00000080 System.Void UnityEngine.AddressableAssets.DynamicResourceLocator::.ctor(UnityEngine.AddressableAssets.AddressablesImpl)
+extern void DynamicResourceLocator__ctor_m0591C466CEE70375622E314B0A644494DFB3B615 (void);
+// 0x00000081 System.Boolean UnityEngine.AddressableAssets.DynamicResourceLocator::Locate(System.Object,System.Type,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>&)
+extern void DynamicResourceLocator_Locate_mFB3C48C9716AC403E0D482E0F2E6D11E8FA54519 (void);
+// 0x00000082 System.Void UnityEngine.AddressableAssets.DynamicResourceLocator::CreateDynamicLocations(System.Type,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>,System.String,System.String,UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+extern void DynamicResourceLocator_CreateDynamicLocations_m00AA7E8B7DB23159E543F9D288D5F25292188A81 (void);
+// 0x00000083 UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent UnityEngine.AddressableAssets.Utility.DiagnosticInfo::CreateEvent(System.String,UnityEngine.ResourceManagement.ResourceManager/DiagnosticEventType,System.Int32,System.Int32)
+extern void DiagnosticInfo_CreateEvent_mFC695681560C9459FBFA471C90094E3325FF4CC9 (void);
+// 0x00000084 System.Void UnityEngine.AddressableAssets.Utility.DiagnosticInfo::.ctor()
+extern void DiagnosticInfo__ctor_mBE6F113C30B6B595260A1C58D68976F755711235 (void);
+// 0x00000085 System.Void UnityEngine.AddressableAssets.Utility.ResourceManagerDiagnostics::.ctor(UnityEngine.ResourceManagement.ResourceManager)
+extern void ResourceManagerDiagnostics__ctor_mF72CD3FA03BE7F127EF30342D928FB4BF5B3C16B (void);
+// 0x00000086 System.Int32 UnityEngine.AddressableAssets.Utility.ResourceManagerDiagnostics::SumDependencyNameHashCodes(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)
+extern void ResourceManagerDiagnostics_SumDependencyNameHashCodes_m6A0C79690FEF8395EB97EBA054D7152FB475409A (void);
+// 0x00000087 System.Int32 UnityEngine.AddressableAssets.Utility.ResourceManagerDiagnostics::CalculateHashCode(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)
+extern void ResourceManagerDiagnostics_CalculateHashCode_mD0A63E93BBA660EDA64D00077B2D256777FCCC0E (void);
+// 0x00000088 System.Int32 UnityEngine.AddressableAssets.Utility.ResourceManagerDiagnostics::CalculateCompletedOperationHashcode(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)
+extern void ResourceManagerDiagnostics_CalculateCompletedOperationHashcode_m030791457AE2071C4AB4758161B8A0482C4B0C68 (void);
+// 0x00000089 System.String UnityEngine.AddressableAssets.Utility.ResourceManagerDiagnostics::GenerateCompletedOperationDisplayName(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)
+extern void ResourceManagerDiagnostics_GenerateCompletedOperationDisplayName_m5BC3877EE31B4E3A13ED7C899B8446ACD0C7A2A8 (void);
+// 0x0000008A System.Void UnityEngine.AddressableAssets.Utility.ResourceManagerDiagnostics::OnResourceManagerDiagnosticEvent(UnityEngine.ResourceManagement.ResourceManager/DiagnosticEventContext)
+extern void ResourceManagerDiagnostics_OnResourceManagerDiagnosticEvent_mFC37FE3507A4A3911B6B12F48A5C64B1963953C3 (void);
+// 0x0000008B System.Void UnityEngine.AddressableAssets.Utility.ResourceManagerDiagnostics::Dispose()
+extern void ResourceManagerDiagnostics_Dispose_m74764DF40B3F376B67D29D552615E1D6726B90E7 (void);
+// 0x0000008C System.Int32 UnityEngine.AddressableAssets.Utility.SerializationUtilities::ReadInt32FromByteArray(System.Byte[],System.Int32)
+extern void SerializationUtilities_ReadInt32FromByteArray_m496E2FB4F19B471BBBEED40A07DB83E98B56C09C (void);
+// 0x0000008D System.Object UnityEngine.AddressableAssets.Utility.SerializationUtilities::ReadObjectFromByteArray(System.Byte[],System.Int32)
+extern void SerializationUtilities_ReadObjectFromByteArray_m30E1BCA3DA1047C02BB01E9CB6A6D615713396FD (void);
+// 0x0000008E System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider::.ctor(UnityEngine.ResourceManagement.ResourceManager)
+extern void ContentCatalogProvider__ctor_m97F166F23702191D7D16AA3D9BF89E1FF790F450 (void);
+// 0x0000008F System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider::Release(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.Object)
+extern void ContentCatalogProvider_Release_m03BB273F5882D9F3A99FC146308180CA301E3A01 (void);
+// 0x00000090 System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider::Provide(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle)
+extern void ContentCatalogProvider_Provide_mA1F3CB11945DB4A494B241DE33F1A14F72C2561F (void);
+// 0x00000091 System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp::Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle,System.Boolean,System.Boolean)
+extern void InternalOp_Start_m13B3B4C3CA844D0F8C15D7A6934E223FC21C00EB (void);
+// 0x00000092 System.Boolean UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp::WaitForCompletionCallback()
+extern void InternalOp_WaitForCompletionCallback_mCA7721866E3D80E9DFB782A57D3BF7E0416D9FB2 (void);
+// 0x00000093 System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp::Release()
+extern void InternalOp_Release_m19233D2953DE23EDD4FEF4316DA41FBE215029AF (void);
+// 0x00000094 System.Boolean UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp::CanLoadCatalogFromBundle(System.String,UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+extern void InternalOp_CanLoadCatalogFromBundle_m29E9F085D94C616A0C063064B3D64662BC64F768 (void);
+// 0x00000095 System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp::LoadCatalog(System.String,System.Boolean)
+extern void InternalOp_LoadCatalog_m4BD81C370F6AE19DEF2E8EED967842FA9AD1CF9B (void);
+// 0x00000096 System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp::CatalogLoadOpCompleteCallback(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData>)
+extern void InternalOp_CatalogLoadOpCompleteCallback_m7ABE16B5B9550F66BEA06C239B7658EDBEB108DA (void);
+// 0x00000097 System.String UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp::GetTransformedInternalId(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+extern void InternalOp_GetTransformedInternalId_m470174337BBF1E1F783418CF80AB6A55794E099B (void);
+// 0x00000098 System.String UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp::DetermineIdToLoad(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.Collections.Generic.IList`1<System.Object>,System.Boolean)
+extern void InternalOp_DetermineIdToLoad_m7A9ED93D1D000457E22F5B71B11E7CD0337AED43 (void);
+// 0x00000099 System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp::OnCatalogLoaded(UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData)
+extern void InternalOp_OnCatalogLoaded_m329BB3AFD87FFA454AFB357E8B8677CE2986E192 (void);
+// 0x0000009A System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp::.ctor()
+extern void InternalOp__ctor_m0BCBDE9F053C63B431C706CC0B02DEB82B88070C (void);
+// 0x0000009B System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp::<LoadCatalog>b__14_0(UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData)
+extern void InternalOp_U3CLoadCatalogU3Eb__14_0_m5CBB4FD815E005B54023B6F1372C54DDB9D4FE25 (void);
+// 0x0000009C System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp/BundledCatalog::add_OnLoaded(System.Action`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData>)
+extern void BundledCatalog_add_OnLoaded_m33CD2D9BBFC438E3FE4229FC61270ABE1757BAA3 (void);
+// 0x0000009D System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp/BundledCatalog::remove_OnLoaded(System.Action`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData>)
+extern void BundledCatalog_remove_OnLoaded_m68F435DDCFB6D3D2CA28503F9B5B11B9063BC324 (void);
+// 0x0000009E System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp/BundledCatalog::.ctor(System.String,System.Int32)
+extern void BundledCatalog__ctor_m6D89F5B7F2AD9A45FEC08F39153F95E0BA8ADD99 (void);
+// 0x0000009F System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp/BundledCatalog::Finalize()
+extern void BundledCatalog_Finalize_mB263EF63BE9F8833EA015FF783D59B881AE3A8B2 (void);
+// 0x000000A0 System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp/BundledCatalog::Unload()
+extern void BundledCatalog_Unload_m03E13520B4FA682A239FDC52C34E847C96262762 (void);
+// 0x000000A1 System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp/BundledCatalog::LoadCatalogFromBundleAsync()
+extern void BundledCatalog_LoadCatalogFromBundleAsync_m3ECD92F9B736CBD9E74B484C62741B6279741D39 (void);
+// 0x000000A2 System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp/BundledCatalog::WebRequestOperationCompleted(UnityEngine.AsyncOperation)
+extern void BundledCatalog_WebRequestOperationCompleted_mBA5F7FFA2C52CCADC3CCAB283CDA984BB96EDE30 (void);
+// 0x000000A3 System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp/BundledCatalog::LoadTextAssetRequestComplete(UnityEngine.AsyncOperation)
+extern void BundledCatalog_LoadTextAssetRequestComplete_m547E724B6A69F92A8A7FC289F35A7B582485D1F8 (void);
+// 0x000000A4 System.Boolean UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp/BundledCatalog::WaitForCompletion()
+extern void BundledCatalog_WaitForCompletion_mB920DFE0296D0BFD0E4383811C5F6F952DCF0AA8 (void);
+// 0x000000A5 System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp/BundledCatalog::<LoadCatalogFromBundleAsync>b__19_1(UnityEngine.Networking.UnityWebRequestAsyncOperation)
+extern void BundledCatalog_U3CLoadCatalogFromBundleAsyncU3Eb__19_1_mC6ADD115296A511E303F04EE7DED7537B3291239 (void);
+// 0x000000A6 System.Void UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp/BundledCatalog::<LoadCatalogFromBundleAsync>b__19_0(UnityEngine.AsyncOperation)
+extern void BundledCatalog_U3CLoadCatalogFromBundleAsyncU3Eb__19_0_m49D30A2381B93A4822469FF39F342C47B9CFD7C7 (void);
+// 0x000000A7 UnityEngine.ResourceManagement.Util.ObjectInitializationData UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData::get_InstanceProviderData()
+extern void ContentCatalogData_get_InstanceProviderData_m834DC403FD021DEA0A45877A6E748A31AC70F7DA (void);
+// 0x000000A8 UnityEngine.ResourceManagement.Util.ObjectInitializationData UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData::get_SceneProviderData()
+extern void ContentCatalogData_get_SceneProviderData_mAFA60EDC86ADDBBBB71A8614C48279788C932A93 (void);
+// 0x000000A9 System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData::get_ResourceProviderData()
+extern void ContentCatalogData_get_ResourceProviderData_mE21C6A8378AADCED75EC268B0D38F9A8BB081BA8 (void);
+// 0x000000AA System.Void UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData::CleanData()
+extern void ContentCatalogData_CleanData_m7061F20894338BA105E325243D68BBB255132AF6 (void);
+// 0x000000AB UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData::CreateCustomLocator(System.String,System.String)
+extern void ContentCatalogData_CreateCustomLocator_m4E0907DB7C5658416BC3041EC0AADE21845FFD55 (void);
+// 0x000000AC UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData::CreateLocator(System.String)
+extern void ContentCatalogData_CreateLocator_mC6077733917E0FC434D7106651CC47F81ADED66D (void);
+// 0x000000AD System.String UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData::ExpandInternalId(System.String[],System.String)
+extern void ContentCatalogData_ExpandInternalId_m87F4A2AC028351BBD339C68F57E1A0FA59A089B6 (void);
+// 0x000000AE System.Void UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData::.ctor()
+extern void ContentCatalogData__ctor_mBC68CA5D564E32298FDB12BD15A9C10661140545 (void);
+// 0x000000AF System.String UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData/CompactLocation::get_InternalId()
+extern void CompactLocation_get_InternalId_mC16C70D4E5014EA89BFD62107807F062FA47EF62 (void);
+// 0x000000B0 System.String UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData/CompactLocation::get_ProviderId()
+extern void CompactLocation_get_ProviderId_m335FE90B0A5CACDAB78DC9096E429E1261CD0B08 (void);
+// 0x000000B1 System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData/CompactLocation::get_Dependencies()
+extern void CompactLocation_get_Dependencies_m6CCB51754B3A64596D953E3E6081AE52F228478C (void);
+// 0x000000B2 System.Boolean UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData/CompactLocation::get_HasDependencies()
+extern void CompactLocation_get_HasDependencies_m5141EE22AA14F4EDE9FC5AEE2B93EC5C7D33F92D (void);
+// 0x000000B3 System.Int32 UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData/CompactLocation::get_DependencyHashCode()
+extern void CompactLocation_get_DependencyHashCode_mFA406D583779A37511AD8CAB4A100EB13B239B53 (void);
+// 0x000000B4 System.Object UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData/CompactLocation::get_Data()
+extern void CompactLocation_get_Data_mF3DD6A57FD955EB7030532C5B03DCB0EDE447F91 (void);
+// 0x000000B5 System.String UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData/CompactLocation::get_PrimaryKey()
+extern void CompactLocation_get_PrimaryKey_m498C50CEB2A12D81A5E7B9ECEC6B04220938B011 (void);
+// 0x000000B6 System.Type UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData/CompactLocation::get_ResourceType()
+extern void CompactLocation_get_ResourceType_m6F2534DD17152B770E8CD7B63180887C82CE9949 (void);
+// 0x000000B7 System.String UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData/CompactLocation::ToString()
+extern void CompactLocation_ToString_mACFF7E9338D13EDE4F72E377171A31B25D038B37 (void);
+// 0x000000B8 System.Int32 UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData/CompactLocation::Hash(System.Type)
+extern void CompactLocation_Hash_m272067C4BD7CD3F4F4F82E1094911E6232F1F009 (void);
+// 0x000000B9 System.Void UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData/CompactLocation::.ctor(UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap,System.String,System.String,System.Object,System.Object,System.Int32,System.String,System.Type)
+extern void CompactLocation__ctor_mE8FACA0177302132CC346946EAD2A1A8BBC456EE (void);
+// 0x000000BA System.Boolean UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator::Locate(System.Object,System.Type,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>&)
+// 0x000000BB System.String[] UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData::get_Keys()
+extern void ResourceLocationData_get_Keys_mED03309C4C351194C81A3B4F85FD9BC87C402B05 (void);
+// 0x000000BC System.String UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData::get_InternalId()
+extern void ResourceLocationData_get_InternalId_m543A0A16BCEE568C722BEF8ACB80CE996D2318F0 (void);
+// 0x000000BD System.String UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData::get_Provider()
+extern void ResourceLocationData_get_Provider_m5F914FDA29E77390D629ADBF4565EAAEDCB083F4 (void);
+// 0x000000BE System.String[] UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData::get_Dependencies()
+extern void ResourceLocationData_get_Dependencies_m0A25C9674BE13EA817A38332A7B90B648BC050FF (void);
+// 0x000000BF System.Type UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData::get_ResourceType()
+extern void ResourceLocationData_get_ResourceType_mA94B078186E27CA215B166AA51142198B4EA3465 (void);
+// 0x000000C0 System.Object UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData::get_Data()
+extern void ResourceLocationData_get_Data_m19B678392C47B3FB539F9C9F592C027F86D578B3 (void);
+// 0x000000C1 System.Void UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap::.ctor(System.String,System.Int32)
+extern void ResourceLocationMap__ctor_m2208B4BDD1EEABBD0AA58DA7B7B44CADDF0A17B5 (void);
+// 0x000000C2 System.Void UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap::set_LocatorId(System.String)
+extern void ResourceLocationMap_set_LocatorId_m0D6156C92CFBACF321BD856D34D3D86E3350FF2C (void);
+// 0x000000C3 System.Void UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap::.ctor(System.String,System.Collections.Generic.IList`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData>)
+extern void ResourceLocationMap__ctor_m5D6BEA9C6AF5B3E8085CD0592EAB92876C08931F (void);
+// 0x000000C4 System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap::get_Locations()
+extern void ResourceLocationMap_get_Locations_mDBC0190E559C406A8C9413E195A60656ED3D136E (void);
+// 0x000000C5 System.Void UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap::set_Locations(System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>>)
+extern void ResourceLocationMap_set_Locations_m8D0CE3B913365B53465D8EAC7FDCD311F5AF0131 (void);
+// 0x000000C6 System.Boolean UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap::Locate(System.Object,System.Type,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>&)
+extern void ResourceLocationMap_Locate_mFBB5443BD10920BF4246F53CE7E0ABFB0D846BCF (void);
+// 0x000000C7 System.Void UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap::Add(System.Object,UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+extern void ResourceLocationMap_Add_m659847BEA0D3FCC8A1707E47B227916447F980D0 (void);
+// 0x000000C8 System.Void UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap::Add(System.Object,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>)
+extern void ResourceLocationMap_Add_mE919B9E341B6569C97F055A04E9A7976F20C5EBF (void);
+// 0x000000C9 System.Reflection.Assembly[] UnityEngine.AddressableAssets.Initialization.AddressablesRuntimeProperties::GetAssemblies()
+extern void AddressablesRuntimeProperties_GetAssemblies_mD3E86E3C70FDD0D914C58CDF9D36F9A0279FF2CB (void);
+// 0x000000CA System.String UnityEngine.AddressableAssets.Initialization.AddressablesRuntimeProperties::EvaluateProperty(System.String)
+extern void AddressablesRuntimeProperties_EvaluateProperty_m4771C62AACC00C3C8C843AE347FC7276A63FFC28 (void);
+// 0x000000CB System.String UnityEngine.AddressableAssets.Initialization.AddressablesRuntimeProperties::EvaluateString(System.String)
+extern void AddressablesRuntimeProperties_EvaluateString_m8D5439F7D5FD76E58D04D7F3DAB6E0FEF2D84901 (void);
+// 0x000000CC System.String UnityEngine.AddressableAssets.Initialization.AddressablesRuntimeProperties::EvaluateString(System.String,System.Char,System.Char,System.Func`2<System.String,System.String>)
+extern void AddressablesRuntimeProperties_EvaluateString_mEC744A949D466FC39CACF0D72F044B40FD2D32C8 (void);
+// 0x000000CD System.Void UnityEngine.AddressableAssets.Initialization.AddressablesRuntimeProperties::.cctor()
+extern void AddressablesRuntimeProperties__cctor_m39EBA6D1E9D2EF7A914A4F048C207E302D637DD5 (void);
+// 0x000000CE System.Void UnityEngine.AddressableAssets.Initialization.InitializationOperation::.ctor(UnityEngine.AddressableAssets.AddressablesImpl)
+extern void InitializationOperation__ctor_mA2A202C201ED8F364F6FFEC174EAE51C2E6A6434 (void);
+// 0x000000CF System.String UnityEngine.AddressableAssets.Initialization.InitializationOperation::get_DebugName()
+extern void InitializationOperation_get_DebugName_m590B65F43134C5390756001BBD04D1DE8F410674 (void);
+// 0x000000D0 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> UnityEngine.AddressableAssets.Initialization.InitializationOperation::CreateInitializationOperation(UnityEngine.AddressableAssets.AddressablesImpl,System.String,System.String)
+extern void InitializationOperation_CreateInitializationOperation_m33F7993FE97B0A04012A9DAA81AB2ECD2EDC766A (void);
+// 0x000000D1 System.Boolean UnityEngine.AddressableAssets.Initialization.InitializationOperation::InvokeWaitForCompletion()
+extern void InitializationOperation_InvokeWaitForCompletion_m650DCC2A0243E4F11D688AAF34DBD8A05E6C0D43 (void);
+// 0x000000D2 System.Void UnityEngine.AddressableAssets.Initialization.InitializationOperation::Execute()
+extern void InitializationOperation_Execute_mEB9FE18E7E3C2F24F88AD53F3C6DAA03C66C67D9 (void);
+// 0x000000D3 System.Void UnityEngine.AddressableAssets.Initialization.InitializationOperation::LoadProvider(UnityEngine.AddressableAssets.AddressablesImpl,UnityEngine.ResourceManagement.Util.ObjectInitializationData,System.String)
+extern void InitializationOperation_LoadProvider_m5EFEC1E24E8D12BD71D95BBB7B799C0BCE667527 (void);
+// 0x000000D4 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> UnityEngine.AddressableAssets.Initialization.InitializationOperation::OnCatalogDataLoaded(UnityEngine.AddressableAssets.AddressablesImpl,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData>,System.String,UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+extern void InitializationOperation_OnCatalogDataLoaded_mDC85CF69F44EFB5D9A383C9AEF77D59C0FF699D9 (void);
+// 0x000000D5 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> UnityEngine.AddressableAssets.Initialization.InitializationOperation::LoadContentCatalog(UnityEngine.AddressableAssets.AddressablesImpl,UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.String,UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+extern void InitializationOperation_LoadContentCatalog_m96F29CCE7193CB68E454EE7474581ACDD3459A23 (void);
+// 0x000000D6 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> UnityEngine.AddressableAssets.Initialization.InitializationOperation::LoadContentCatalog(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.String,UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+extern void InitializationOperation_LoadContentCatalog_m2B1E267F7B46BBE94489B678020E88C081A9B373 (void);
+// 0x000000D7 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> UnityEngine.AddressableAssets.Initialization.InitializationOperation::LoadContentCatalogInternal(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>,System.Int32,UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap,UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+extern void InitializationOperation_LoadContentCatalogInternal_mB8879495162C6FDA165CB2571DABBA643C257D4D (void);
+// 0x000000D8 System.Void UnityEngine.AddressableAssets.Initialization.InitializationOperation::LoadOpComplete(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator>,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>,UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap,System.Int32,UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+extern void InitializationOperation_LoadOpComplete_m7411329487C62A65E027BE07B055CF290C09C009 (void);
+// 0x000000D9 System.Void UnityEngine.AddressableAssets.Initialization.InitializationOperation/<>c::.cctor()
+extern void U3CU3Ec__cctor_mE9258D312AFF75B5AE671A1B5B0B352B98A96F29 (void);
+// 0x000000DA System.Void UnityEngine.AddressableAssets.Initialization.InitializationOperation/<>c::.ctor()
+extern void U3CU3Ec__ctor_m400FA93F30A0788073EEF09EFDA850B0DD08B1D1 (void);
+// 0x000000DB System.Boolean UnityEngine.AddressableAssets.Initialization.InitializationOperation/<>c::<Execute>b__13_0(UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider)
+extern void U3CU3Ec_U3CExecuteU3Eb__13_0_mAED31DB7FABB1ABC307A8C6610EC50871F29A002 (void);
+// 0x000000DC System.Void UnityEngine.AddressableAssets.Initialization.InitializationOperation/<>c__DisplayClass16_0::.ctor()
+extern void U3CU3Ec__DisplayClass16_0__ctor_m8DD3D41CB6ADB76E0EA33F4AF0F24D8492D77AB6 (void);
+// 0x000000DD UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> UnityEngine.AddressableAssets.Initialization.InitializationOperation/<>c__DisplayClass16_0::<LoadContentCatalog>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData>)
+extern void U3CU3Ec__DisplayClass16_0_U3CLoadContentCatalogU3Eb__0_m66DB2E022694F69F39CCFFC3154CB5AB5976645F (void);
+// 0x000000DE System.Void UnityEngine.AddressableAssets.Initialization.InitializationOperation/<>c__DisplayClass18_0::.ctor()
+extern void U3CU3Ec__DisplayClass18_0__ctor_m99303C3B088C7B4052A6F8AA53CAA1BC21EB1D5A (void);
+// 0x000000DF System.Void UnityEngine.AddressableAssets.Initialization.InitializationOperation/<>c__DisplayClass18_0::<LoadContentCatalogInternal>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator>)
+extern void U3CU3Ec__DisplayClass18_0_U3CLoadContentCatalogInternalU3Eb__0_m8E4BA6A17387BF7F02B23A139D7E8A5C782D43BA (void);
+// 0x000000E0 System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData::get_CatalogLocations()
+extern void ResourceManagerRuntimeData_get_CatalogLocations_m6BDA2FA48B12635AD67A780C5E197C02BB411172 (void);
+// 0x000000E1 System.Boolean UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData::get_ProfileEvents()
+extern void ResourceManagerRuntimeData_get_ProfileEvents_mD05FEC5FBD8C8A04EB35B153297CA9FE0A92220B (void);
+// 0x000000E2 System.Boolean UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData::get_LogResourceManagerExceptions()
+extern void ResourceManagerRuntimeData_get_LogResourceManagerExceptions_m421154EADF056D9461BFAE4D8C98B3818457BF2C (void);
+// 0x000000E3 System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData::get_InitializationObjects()
+extern void ResourceManagerRuntimeData_get_InitializationObjects_m0C2D008C79BD52C0F9895F093E4AFD3AFDB9E014 (void);
+// 0x000000E4 System.Boolean UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData::get_DisableCatalogUpdateOnStartup()
+extern void ResourceManagerRuntimeData_get_DisableCatalogUpdateOnStartup_m2EB745669A9AC1D07E47D345DE2EF87442D56907 (void);
+// 0x000000E5 System.Boolean UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData::get_IsLocalCatalogInBundle()
+extern void ResourceManagerRuntimeData_get_IsLocalCatalogInBundle_m5D312C49BFCB754034EC7BBFD1EAF7BF1AF6B312 (void);
+// 0x000000E6 System.Type UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData::get_CertificateHandlerType()
+extern void ResourceManagerRuntimeData_get_CertificateHandlerType_m1194D6694DE8A1FBBF29D5025C2E9C9DB1FD941F (void);
+// 0x000000E7 System.Int32 UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData::get_MaxConcurrentWebRequests()
+extern void ResourceManagerRuntimeData_get_MaxConcurrentWebRequests_m1CF41EB91ABB3B99C338122E3507D3D196A838F0 (void);
+// 0x000000E8 System.Int32 UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData::get_CatalogRequestsTimeout()
+extern void ResourceManagerRuntimeData_get_CatalogRequestsTimeout_mED5A093F40FE50DF355C12FE18D6FCFB2AC993D1 (void);
+// 0x000000E9 System.Void UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData::.ctor()
+extern void ResourceManagerRuntimeData__ctor_m5AD4B872EB21CB8C9613B008ADA0A55980AB4B75 (void);
+static Il2CppMethodPointer s_methodPointers[233] = 
+{
+	PackedPlayModeBuildLogs_get_RuntimeBuildLogs_m2A62CE1FAC6164FD6B0D89993B38230C9D8256E9,
+	PackedPlayModeBuildLogs__ctor_mCA7D3DF16DA06CC7A356906C32B466EAA5D57189,
+	InitalizationObjectsOperation_Init_m5C261C641269B76CEAA9774EF4A621EA846EEB5D,
+	InitalizationObjectsOperation_get_DebugName_m851C38457F31826B52E531C6E783121AF5B6BD5C,
+	InitalizationObjectsOperation_LogRuntimeWarnings_m00AE676D1FCCD48675884FE9DD20F5D1F684AEDA,
+	InitalizationObjectsOperation_InvokeWaitForCompletion_mE8FAF7DB4D7D10F22C4FC6DF3A26CAA0ADC6D5FD,
+	InitalizationObjectsOperation_Execute_mBD7C50B85F47EE0269BBBE721B5195D4AAC1A3ED,
+	InitalizationObjectsOperation__ctor_m1C106B8E7787E7E178E17DBFDD984EEE88C13A33,
+	InitalizationObjectsOperation_U3CExecuteU3Eb__8_0_m1AA291DA4F801F4D169E0D3BABF6501F7265E51B,
+	InvalidKeyException_get_Key_m04CFA5445F268B1738B83E149DA2A560A789A291,
+	InvalidKeyException_set_Key_mCDC4F50DA79B43EE22E693752C230A727E520F1A,
+	InvalidKeyException_get_Type_mFCF9566F7A5F7ECEF09376CD0D95CC78ACE44633,
+	InvalidKeyException_set_Type_m95D438D9D2D16C60E66334D606F8CCE73928A0CB,
+	InvalidKeyException_get_MergeMode_m3B874B38F69384DAF973604A6946E0F21AE1360F,
+	InvalidKeyException__ctor_mB9F03E732D5DA73676D6DF8EC03DEA22200B7BA3,
+	InvalidKeyException_get_Message_mDB7371B5C9392DA9F8B939BC774A21B5EE372112,
+	InvalidKeyException_GetMessageForSingleKey_m5374F963B1E10C773466862AD10ECF4FF3759BB7,
+	InvalidKeyException_GetMessageforMergeKeys_mA2BBC8F4622CAACCB2A3B5CC42CDAF38AE061397,
+	InvalidKeyException_GetTypesForKey_m9DC047CFA2835A0E6CD415A8A6D42C9DD8F91F4F,
+	InvalidKeyException_GetTypeToKeys_m6B2D3ECD7BE86E4A2D5820995E129AA401E7F0E1,
+	InvalidKeyException_GetCSVString_m8BEE349B248FE9D98DCD0AE3493E8E1D2E2AFE88,
+	Addressables_get_m_Addressables_mCBFD180C3722D8CE681814A67B652682C6710BEE,
+	Addressables_get_ResourceManager_m480AE4DB9D40EABEF022FDAEA00A043DA52D1D5E,
+	Addressables_ResolveInternalId_mF1D3A8B02C0D6741CB72AD8A55D5E82A36AA1782,
+	Addressables_LogWarning_mE6B724D5D8608F3B426E8CFB94917FE28D6B851B,
+	Addressables_LogWarningFormat_m113FDAC9E0B6D6D25774FBE6AD2E1BA82DCC5AE9,
+	Addressables_LogError_m14F9E54E8D0491FFE0254C08E7433BCB7D3119B6,
+	Addressables_LogErrorFormat_m37C249A86F953A975C66573FA9A33F7C35F5D647,
+	NULL,
+	NULL,
+	Addressables_LoadResourceLocationsAsync_mA7BC8A23176D4E1BAF0279763F81FEAB57F2BE43,
+	Addressables_LoadResourceLocationsAsync_m96BF35184F12370BCD9A304065F42D080D7EE18B,
+	NULL,
+	Addressables_Release_m0A186637EB825A9C793E94DD9D5B00842EC67589,
+	Addressables__cctor_m9269D2DB2C8115DAF077A0A3801015469F9825BE,
+	AddressablesImpl_get_InstanceProvider_m8BC14A958EB91A2BD3A686758670C728190A6090,
+	AddressablesImpl_set_InstanceProvider_mA92B463DD7BCDB14B2EDCD84F58D7F595CC5A01F,
+	AddressablesImpl_get_ResourceManager_mFCBBB9F321655F40BDD1CAF07194C1AA40BCB656,
+	AddressablesImpl_set_CatalogRequestsTimeout_mBD266E78770ADCFBEFFADF14AA524B67CE2222DD,
+	AddressablesImpl_get_SceneOperationCount_m0E34C64E4228D8AEF0FE3C98A663784CA111BC55,
+	AddressablesImpl__ctor_m0D145411AE0D75A5FD395FACBE97807535D02974,
+	AddressablesImpl_get_ChainOperation_mD1E214493952096323F333E3315296E79C812DCE,
+	AddressablesImpl_get_ShouldChainRequest_m7B0C3F2F8AC53881B87AB144601A4E80DE69560D,
+	AddressablesImpl_OnSceneUnloaded_m3BE985BC72C4FC0E4046123CB977B7E6AACCF4C8,
+	AddressablesImpl_get_StreamingAssetsSubFolder_m836CFC1375369C5895DEA6E1D779DC09A466C31B,
+	AddressablesImpl_get_PlayerBuildDataPath_m29B43E1D45B38754C648ABECDB7C9783E12CFD8B,
+	AddressablesImpl_get_RuntimePath_m516C45F2BF5F5622F31FC11CD967DDDD02CCBE6A,
+	AddressablesImpl_LogWarning_m1A027072AF03D4E499CF922978CBED57344AAF8A,
+	AddressablesImpl_LogWarningFormat_mE3F74A1473E680C02FAB802B2FBA8779BBA4ECC2,
+	AddressablesImpl_LogError_m52A2B1A6E3B166A075222CE0D00EB3124ECCB0D0,
+	AddressablesImpl_LogException_m8F960C2ADDA73A9E3F99D14AEB0BF77209E0966E,
+	AddressablesImpl_LogErrorFormat_m9CA5AD09EC3AAE49EC71065499CEE0ED3E5F1B05,
+	AddressablesImpl_ResolveInternalId_m858249BA7A7A6C41684815D2A09618EEC81F48CC,
+	AddressablesImpl_get_ResourceLocators_m8E2213BC51CCDBF257902E4E17E0C9385457288F,
+	AddressablesImpl_AddResourceLocator_m4B7B6E7D82E6F6D3B11BC865C417A5C4F891A0FE,
+	AddressablesImpl_RemoveResourceLocator_m3648D6A6C2FDA74776BD0EAB41E370D06EC952A5,
+	AddressablesImpl_GetResourceLocations_m51B702F089F2E776BFB4D3C0D3C0CF982B1C77F1,
+	AddressablesImpl_GetResourceLocations_m868373B7918DBF99851290C662E7A92E06EEB982,
+	AddressablesImpl_InitializeAsync_mA3C3DC099508914EF7A101A6DD6D8D5F9B6D1245,
+	AddressablesImpl_InitializeAsync_m39F307E3349132C26AEA3CDB5711109DB64AD358,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	AddressablesImpl_LoadResourceLocationsWithChain_mD0C9A4B25EF3217C5BBBC0C3B95BBFA1E006516F,
+	AddressablesImpl_LoadResourceLocationsAsync_m2B02B077B4C9EBF5AF34FFE2C7066A94CD1D7DC4,
+	AddressablesImpl_LoadResourceLocationsWithChain_mBE480C20C62FC3427B07DBF7B81998D81ED87083,
+	AddressablesImpl_LoadResourceLocationsAsync_m507C5B218CA7202B33C9E3C16AA442FD9E2F0A16,
+	NULL,
+	NULL,
+	NULL,
+	AddressablesImpl_OnHandleDestroyed_m48205B3E1BBA2C490C9737E3EF61F2CC0294CD43,
+	AddressablesImpl_OnSceneHandleCompleted_m542A4475E4DA62372E5F423BF70A0363F141EA87,
+	AddressablesImpl_OnHandleCompleted_m0F6517BB79B2FFEF7D3DCB8D5B19D1DEDE90B38E,
+	NULL,
+	AddressablesImpl_Release_mBCA4FCEFB7E34BD7DA17F90CC86028197383A61D,
+	NULL,
+	NULL,
+	AddressablesImpl_UnloadSceneAsync_m37210AD09729FEAF3F075450BCC9A7C38B6A488C,
+	AddressablesImpl_UnloadSceneAsync_mBD793D435D1FFC95B2F575701E2B05F78D67C4C3,
+	AddressablesImpl_CreateUnloadSceneWithChain_m4773DCFDCD481D0677ED8738A34DDF1C2E97964F,
+	AddressablesImpl_CreateUnloadSceneWithChain_m217E2D006EAAEA5FE9140909C3E4D823A11ED527,
+	AddressablesImpl_InternalUnloadScene_mFFCE1581450DEFA20442388F93A496C50C2C0B71,
+	AddressablesImpl_EvaluateKey_mF8F0DBA33B0A60464585E2422A6D054E34E8B4F8,
+	AddressablesImpl_Equals_m9C9049FC1B9E31A96E7440E849688849815B79AA,
+	AddressablesImpl_GetHashCode_m9AFBC9F6CD9EEB911131180B201E42969DF95DA7,
+	NULL,
+	ResourceLocatorInfo_get_Locator_m7EA5D661DF4964E728CBA01D589ABBD5C9688218,
+	ResourceLocatorInfo_set_Locator_m6C45410FDF734BEFC3CCBBB5DFFD0E257C8F2F79,
+	ResourceLocatorInfo_set_LocalHash_m962C33927DE0872B6E62D20A5635A52B9A75F1C8,
+	ResourceLocatorInfo_set_CatalogLocation_mD750CFC8409CFE135638F43EDCA4F7E7D8EA0B41,
+	ResourceLocatorInfo__ctor_m1CF22FC6C1EB0BEF51A5A5FDBC5FDBEA06749DE7,
+	LoadResourceLocationKeyOp_get_DebugName_m7182C31D9604CBB0162CA85BCA00F146B604C0BD,
+	LoadResourceLocationKeyOp_Init_mC9E0250DEE601A85A904837AB8B7DFDE38768889,
+	LoadResourceLocationKeyOp_InvokeWaitForCompletion_m8C6DCBB4BB0EFAE3A7D4B8B98C67649881DB2250,
+	LoadResourceLocationKeyOp_Execute_mAFA1E3E5CF26E7DDFFD39CC87023F80796B2AFD2,
+	LoadResourceLocationKeyOp__ctor_mB595D261116AA11C4A07330E3E86560D05394044,
+	LoadResourceLocationKeysOp_get_DebugName_m4C1800E01BE2301FD440FD23835F102F78978C15,
+	LoadResourceLocationKeysOp_Init_m0B0FB4F0FEF6A6CE880EE39AB8A55A2FA4403D03,
+	LoadResourceLocationKeysOp_Execute_m45739EC09ED6412F383E7B03C7CBD2C152357234,
+	LoadResourceLocationKeysOp_InvokeWaitForCompletion_mE0E2D9BB217B3F830A6D56E3BBE07D862567822D,
+	LoadResourceLocationKeysOp__ctor_mB930530F598048D7253C4F9346DD6F7C55FB8C56,
+	U3CU3Ec__cctor_m65F36F3B1EDBCF7D5815B0324971AFDAAD1A1654,
+	U3CU3Ec__ctor_m174D0B02F3D309C783651F872C869FA2462C9D57,
+	U3CU3Ec_U3Cget_ResourceLocatorsU3Eb__60_0_m381AF0135A99D488B8A8611E6B164C2A0FD7C906,
+	U3CU3Ec__DisplayClass62_0__ctor_mF77AA31AC125BA39D47ECB5084B974D7C75C82A8,
+	U3CU3Ec__DisplayClass62_0_U3CRemoveResourceLocatorU3Eb__0_m9BDCEF8C7309E507C5856AF0033300B9257A64E3,
+	NULL,
+	NULL,
+	U3CU3Ec__DisplayClass81_0__ctor_mE04ABC7C07FE193FD791DCECAD48DA7A6C0E4108,
+	U3CU3Ec__DisplayClass81_0_U3CLoadResourceLocationsWithChainU3Eb__0_mE3778708F20BDBE1F33B707472E990E4A6E5046B,
+	U3CU3Ec__DisplayClass83_0__ctor_mDD6F3FCC7B2EAC2546437094AA8CD187057E4F49,
+	U3CU3Ec__DisplayClass83_0_U3CLoadResourceLocationsWithChainU3Eb__0_mE9A8D713FC4E61BC01B0799BBD61721026033A67,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	U3CU3Ec__DisplayClass131_0__ctor_m914A7E92FCC5F11BF4C778233EE7E5D49868B859,
+	U3CU3Ec__DisplayClass131_0_U3CCreateUnloadSceneWithChainU3Eb__0_mE30BF5DFE57944D8FAF6E4D1E1284C6A54804AA3,
+	U3CU3Ec__DisplayClass132_0__ctor_m07201C8D24FBFAFF2218EA0951D53EDDB655744E,
+	U3CU3Ec__DisplayClass132_0_U3CCreateUnloadSceneWithChainU3Eb__0_m979FA98EFEE79DEC232FBE17EADC020261147D8E,
+	AssetReference_get_RuntimeKey_mB52D387E5244EAD047745D2A8904DA0D9C864F74,
+	AssetReference_get_SubOjbectType_mC090A0EE55581CADB950F2884C1C69553D36885C,
+	AssetReference__ctor_m1B9255F08152E57E683A1C4DB603BF2C75605BAB,
+	AssetReference_ToString_mBBCBADD628EC8D46171956F79B4F869DE8688FCE,
+	NULL,
+	DynamicResourceLocator_get_AtlasSpriteProviderId_m8B5E40CB4D132AFFB7A73BB55121DCEF3F27C591,
+	DynamicResourceLocator__ctor_m0591C466CEE70375622E314B0A644494DFB3B615,
+	DynamicResourceLocator_Locate_mFB3C48C9716AC403E0D482E0F2E6D11E8FA54519,
+	DynamicResourceLocator_CreateDynamicLocations_m00AA7E8B7DB23159E543F9D288D5F25292188A81,
+	DiagnosticInfo_CreateEvent_mFC695681560C9459FBFA471C90094E3325FF4CC9,
+	DiagnosticInfo__ctor_mBE6F113C30B6B595260A1C58D68976F755711235,
+	ResourceManagerDiagnostics__ctor_mF72CD3FA03BE7F127EF30342D928FB4BF5B3C16B,
+	ResourceManagerDiagnostics_SumDependencyNameHashCodes_m6A0C79690FEF8395EB97EBA054D7152FB475409A,
+	ResourceManagerDiagnostics_CalculateHashCode_mD0A63E93BBA660EDA64D00077B2D256777FCCC0E,
+	ResourceManagerDiagnostics_CalculateCompletedOperationHashcode_m030791457AE2071C4AB4758161B8A0482C4B0C68,
+	ResourceManagerDiagnostics_GenerateCompletedOperationDisplayName_m5BC3877EE31B4E3A13ED7C899B8446ACD0C7A2A8,
+	ResourceManagerDiagnostics_OnResourceManagerDiagnosticEvent_mFC37FE3507A4A3911B6B12F48A5C64B1963953C3,
+	ResourceManagerDiagnostics_Dispose_m74764DF40B3F376B67D29D552615E1D6726B90E7,
+	SerializationUtilities_ReadInt32FromByteArray_m496E2FB4F19B471BBBEED40A07DB83E98B56C09C,
+	SerializationUtilities_ReadObjectFromByteArray_m30E1BCA3DA1047C02BB01E9CB6A6D615713396FD,
+	ContentCatalogProvider__ctor_m97F166F23702191D7D16AA3D9BF89E1FF790F450,
+	ContentCatalogProvider_Release_m03BB273F5882D9F3A99FC146308180CA301E3A01,
+	ContentCatalogProvider_Provide_mA1F3CB11945DB4A494B241DE33F1A14F72C2561F,
+	InternalOp_Start_m13B3B4C3CA844D0F8C15D7A6934E223FC21C00EB,
+	InternalOp_WaitForCompletionCallback_mCA7721866E3D80E9DFB782A57D3BF7E0416D9FB2,
+	InternalOp_Release_m19233D2953DE23EDD4FEF4316DA41FBE215029AF,
+	InternalOp_CanLoadCatalogFromBundle_m29E9F085D94C616A0C063064B3D64662BC64F768,
+	InternalOp_LoadCatalog_m4BD81C370F6AE19DEF2E8EED967842FA9AD1CF9B,
+	InternalOp_CatalogLoadOpCompleteCallback_m7ABE16B5B9550F66BEA06C239B7658EDBEB108DA,
+	InternalOp_GetTransformedInternalId_m470174337BBF1E1F783418CF80AB6A55794E099B,
+	InternalOp_DetermineIdToLoad_m7A9ED93D1D000457E22F5B71B11E7CD0337AED43,
+	InternalOp_OnCatalogLoaded_m329BB3AFD87FFA454AFB357E8B8677CE2986E192,
+	InternalOp__ctor_m0BCBDE9F053C63B431C706CC0B02DEB82B88070C,
+	InternalOp_U3CLoadCatalogU3Eb__14_0_m5CBB4FD815E005B54023B6F1372C54DDB9D4FE25,
+	BundledCatalog_add_OnLoaded_m33CD2D9BBFC438E3FE4229FC61270ABE1757BAA3,
+	BundledCatalog_remove_OnLoaded_m68F435DDCFB6D3D2CA28503F9B5B11B9063BC324,
+	BundledCatalog__ctor_m6D89F5B7F2AD9A45FEC08F39153F95E0BA8ADD99,
+	BundledCatalog_Finalize_mB263EF63BE9F8833EA015FF783D59B881AE3A8B2,
+	BundledCatalog_Unload_m03E13520B4FA682A239FDC52C34E847C96262762,
+	BundledCatalog_LoadCatalogFromBundleAsync_m3ECD92F9B736CBD9E74B484C62741B6279741D39,
+	BundledCatalog_WebRequestOperationCompleted_mBA5F7FFA2C52CCADC3CCAB283CDA984BB96EDE30,
+	BundledCatalog_LoadTextAssetRequestComplete_m547E724B6A69F92A8A7FC289F35A7B582485D1F8,
+	BundledCatalog_WaitForCompletion_mB920DFE0296D0BFD0E4383811C5F6F952DCF0AA8,
+	BundledCatalog_U3CLoadCatalogFromBundleAsyncU3Eb__19_1_mC6ADD115296A511E303F04EE7DED7537B3291239,
+	BundledCatalog_U3CLoadCatalogFromBundleAsyncU3Eb__19_0_m49D30A2381B93A4822469FF39F342C47B9CFD7C7,
+	ContentCatalogData_get_InstanceProviderData_m834DC403FD021DEA0A45877A6E748A31AC70F7DA,
+	ContentCatalogData_get_SceneProviderData_mAFA60EDC86ADDBBBB71A8614C48279788C932A93,
+	ContentCatalogData_get_ResourceProviderData_mE21C6A8378AADCED75EC268B0D38F9A8BB081BA8,
+	ContentCatalogData_CleanData_m7061F20894338BA105E325243D68BBB255132AF6,
+	ContentCatalogData_CreateCustomLocator_m4E0907DB7C5658416BC3041EC0AADE21845FFD55,
+	ContentCatalogData_CreateLocator_mC6077733917E0FC434D7106651CC47F81ADED66D,
+	ContentCatalogData_ExpandInternalId_m87F4A2AC028351BBD339C68F57E1A0FA59A089B6,
+	ContentCatalogData__ctor_mBC68CA5D564E32298FDB12BD15A9C10661140545,
+	CompactLocation_get_InternalId_mC16C70D4E5014EA89BFD62107807F062FA47EF62,
+	CompactLocation_get_ProviderId_m335FE90B0A5CACDAB78DC9096E429E1261CD0B08,
+	CompactLocation_get_Dependencies_m6CCB51754B3A64596D953E3E6081AE52F228478C,
+	CompactLocation_get_HasDependencies_m5141EE22AA14F4EDE9FC5AEE2B93EC5C7D33F92D,
+	CompactLocation_get_DependencyHashCode_mFA406D583779A37511AD8CAB4A100EB13B239B53,
+	CompactLocation_get_Data_mF3DD6A57FD955EB7030532C5B03DCB0EDE447F91,
+	CompactLocation_get_PrimaryKey_m498C50CEB2A12D81A5E7B9ECEC6B04220938B011,
+	CompactLocation_get_ResourceType_m6F2534DD17152B770E8CD7B63180887C82CE9949,
+	CompactLocation_ToString_mACFF7E9338D13EDE4F72E377171A31B25D038B37,
+	CompactLocation_Hash_m272067C4BD7CD3F4F4F82E1094911E6232F1F009,
+	CompactLocation__ctor_mE8FACA0177302132CC346946EAD2A1A8BBC456EE,
+	NULL,
+	ResourceLocationData_get_Keys_mED03309C4C351194C81A3B4F85FD9BC87C402B05,
+	ResourceLocationData_get_InternalId_m543A0A16BCEE568C722BEF8ACB80CE996D2318F0,
+	ResourceLocationData_get_Provider_m5F914FDA29E77390D629ADBF4565EAAEDCB083F4,
+	ResourceLocationData_get_Dependencies_m0A25C9674BE13EA817A38332A7B90B648BC050FF,
+	ResourceLocationData_get_ResourceType_mA94B078186E27CA215B166AA51142198B4EA3465,
+	ResourceLocationData_get_Data_m19B678392C47B3FB539F9C9F592C027F86D578B3,
+	ResourceLocationMap__ctor_m2208B4BDD1EEABBD0AA58DA7B7B44CADDF0A17B5,
+	ResourceLocationMap_set_LocatorId_m0D6156C92CFBACF321BD856D34D3D86E3350FF2C,
+	ResourceLocationMap__ctor_m5D6BEA9C6AF5B3E8085CD0592EAB92876C08931F,
+	ResourceLocationMap_get_Locations_mDBC0190E559C406A8C9413E195A60656ED3D136E,
+	ResourceLocationMap_set_Locations_m8D0CE3B913365B53465D8EAC7FDCD311F5AF0131,
+	ResourceLocationMap_Locate_mFBB5443BD10920BF4246F53CE7E0ABFB0D846BCF,
+	ResourceLocationMap_Add_m659847BEA0D3FCC8A1707E47B227916447F980D0,
+	ResourceLocationMap_Add_mE919B9E341B6569C97F055A04E9A7976F20C5EBF,
+	AddressablesRuntimeProperties_GetAssemblies_mD3E86E3C70FDD0D914C58CDF9D36F9A0279FF2CB,
+	AddressablesRuntimeProperties_EvaluateProperty_m4771C62AACC00C3C8C843AE347FC7276A63FFC28,
+	AddressablesRuntimeProperties_EvaluateString_m8D5439F7D5FD76E58D04D7F3DAB6E0FEF2D84901,
+	AddressablesRuntimeProperties_EvaluateString_mEC744A949D466FC39CACF0D72F044B40FD2D32C8,
+	AddressablesRuntimeProperties__cctor_m39EBA6D1E9D2EF7A914A4F048C207E302D637DD5,
+	InitializationOperation__ctor_mA2A202C201ED8F364F6FFEC174EAE51C2E6A6434,
+	InitializationOperation_get_DebugName_m590B65F43134C5390756001BBD04D1DE8F410674,
+	InitializationOperation_CreateInitializationOperation_m33F7993FE97B0A04012A9DAA81AB2ECD2EDC766A,
+	InitializationOperation_InvokeWaitForCompletion_m650DCC2A0243E4F11D688AAF34DBD8A05E6C0D43,
+	InitializationOperation_Execute_mEB9FE18E7E3C2F24F88AD53F3C6DAA03C66C67D9,
+	InitializationOperation_LoadProvider_m5EFEC1E24E8D12BD71D95BBB7B799C0BCE667527,
+	InitializationOperation_OnCatalogDataLoaded_mDC85CF69F44EFB5D9A383C9AEF77D59C0FF699D9,
+	InitializationOperation_LoadContentCatalog_m96F29CCE7193CB68E454EE7474581ACDD3459A23,
+	InitializationOperation_LoadContentCatalog_m2B1E267F7B46BBE94489B678020E88C081A9B373,
+	InitializationOperation_LoadContentCatalogInternal_mB8879495162C6FDA165CB2571DABBA643C257D4D,
+	InitializationOperation_LoadOpComplete_m7411329487C62A65E027BE07B055CF290C09C009,
+	U3CU3Ec__cctor_mE9258D312AFF75B5AE671A1B5B0B352B98A96F29,
+	U3CU3Ec__ctor_m400FA93F30A0788073EEF09EFDA850B0DD08B1D1,
+	U3CU3Ec_U3CExecuteU3Eb__13_0_mAED31DB7FABB1ABC307A8C6610EC50871F29A002,
+	U3CU3Ec__DisplayClass16_0__ctor_m8DD3D41CB6ADB76E0EA33F4AF0F24D8492D77AB6,
+	U3CU3Ec__DisplayClass16_0_U3CLoadContentCatalogU3Eb__0_m66DB2E022694F69F39CCFFC3154CB5AB5976645F,
+	U3CU3Ec__DisplayClass18_0__ctor_m99303C3B088C7B4052A6F8AA53CAA1BC21EB1D5A,
+	U3CU3Ec__DisplayClass18_0_U3CLoadContentCatalogInternalU3Eb__0_m8E4BA6A17387BF7F02B23A139D7E8A5C782D43BA,
+	ResourceManagerRuntimeData_get_CatalogLocations_m6BDA2FA48B12635AD67A780C5E197C02BB411172,
+	ResourceManagerRuntimeData_get_ProfileEvents_mD05FEC5FBD8C8A04EB35B153297CA9FE0A92220B,
+	ResourceManagerRuntimeData_get_LogResourceManagerExceptions_m421154EADF056D9461BFAE4D8C98B3818457BF2C,
+	ResourceManagerRuntimeData_get_InitializationObjects_m0C2D008C79BD52C0F9895F093E4AFD3AFDB9E014,
+	ResourceManagerRuntimeData_get_DisableCatalogUpdateOnStartup_m2EB745669A9AC1D07E47D345DE2EF87442D56907,
+	ResourceManagerRuntimeData_get_IsLocalCatalogInBundle_m5D312C49BFCB754034EC7BBFD1EAF7BF1AF6B312,
+	ResourceManagerRuntimeData_get_CertificateHandlerType_m1194D6694DE8A1FBBF29D5025C2E9C9DB1FD941F,
+	ResourceManagerRuntimeData_get_MaxConcurrentWebRequests_m1CF41EB91ABB3B99C338122E3507D3D196A838F0,
+	ResourceManagerRuntimeData_get_CatalogRequestsTimeout_mED5A093F40FE50DF355C12FE18D6FCFB2AC993D1,
+	ResourceManagerRuntimeData__ctor_m5AD4B872EB21CB8C9613B008ADA0A55980AB4B75,
+};
+static const int32_t s_InvokerIndices[233] = 
+{
+	6043,
+	6165,
+	2150,
+	6043,
+	3521,
+	5960,
+	6165,
+	6165,
+	4565,
+	6043,
+	4980,
+	6043,
+	4980,
+	5858,
+	1469,
+	6043,
+	4372,
+	4372,
+	4372,
+	1689,
+	1281,
+	9346,
+	9346,
+	8989,
+	9233,
+	8525,
+	9233,
+	8525,
+	0,
+	0,
+	7293,
+	7880,
+	0,
+	9223,
+	9378,
+	6043,
+	4980,
+	6043,
+	4953,
+	6013,
+	4980,
+	5953,
+	5960,
+	5016,
+	6043,
+	6043,
+	6043,
+	4980,
+	2713,
+	4980,
+	2227,
+	2713,
+	4372,
+	6043,
+	1469,
+	4980,
+	1166,
+	607,
+	1091,
+	5359,
+	0,
+	0,
+	0,
+	0,
+	567,
+	1086,
+	1085,
+	1520,
+	0,
+	0,
+	0,
+	4888,
+	4888,
+	4888,
+	0,
+	4888,
+	0,
+	0,
+	1095,
+	1094,
+	1095,
+	1094,
+	1094,
+	4372,
+	1689,
+	4120,
+	0,
+	6043,
+	4980,
+	4980,
+	4980,
+	1469,
+	6043,
+	1469,
+	5960,
+	6165,
+	6165,
+	6043,
+	1053,
+	6165,
+	5960,
+	6165,
+	9378,
+	6165,
+	4372,
+	6165,
+	3521,
+	0,
+	0,
+	6165,
+	2813,
+	6165,
+	2813,
+	0,
+	0,
+	0,
+	0,
+	6165,
+	2825,
+	6165,
+	2824,
+	6043,
+	6043,
+	6165,
+	6043,
+	0,
+	6043,
+	4980,
+	1166,
+	551,
+	622,
+	6165,
+	4980,
+	4054,
+	4054,
+	4054,
+	4356,
+	5160,
+	6165,
+	8173,
+	8256,
+	4980,
+	2713,
+	4993,
+	1487,
+	5960,
+	6165,
+	1689,
+	2700,
+	4568,
+	4372,
+	1278,
+	4980,
+	6165,
+	4980,
+	4980,
+	4980,
+	2709,
+	6165,
+	6165,
+	6165,
+	4980,
+	4980,
+	5960,
+	4980,
+	4980,
+	6044,
+	6044,
+	6043,
+	6165,
+	2091,
+	4372,
+	8261,
+	6165,
+	6043,
+	6043,
+	6043,
+	5960,
+	6013,
+	6043,
+	6043,
+	6043,
+	6043,
+	4120,
+	117,
+	0,
+	6043,
+	6043,
+	6043,
+	6043,
+	6043,
+	6043,
+	2709,
+	4980,
+	2713,
+	6043,
+	4980,
+	1166,
+	2713,
+	2713,
+	9346,
+	8989,
+	8989,
+	7168,
+	9378,
+	4980,
+	6043,
+	7295,
+	5960,
+	6165,
+	7858,
+	6883,
+	6884,
+	1092,
+	569,
+	474,
+	9378,
+	6165,
+	3521,
+	6165,
+	2815,
+	6165,
+	4569,
+	6043,
+	5960,
+	5960,
+	6043,
+	5960,
+	5960,
+	6043,
+	6013,
+	6013,
+	6165,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[17] = 
+{
+	{ 0x0200000E, { 52, 1 } },
+	{ 0x02000011, { 53, 1 } },
+	{ 0x02000012, { 54, 3 } },
+	{ 0x0600001D, { 0, 1 } },
+	{ 0x0600001E, { 1, 1 } },
+	{ 0x06000021, { 2, 1 } },
+	{ 0x0600003D, { 3, 2 } },
+	{ 0x0600003E, { 5, 2 } },
+	{ 0x0600003F, { 7, 6 } },
+	{ 0x06000040, { 13, 5 } },
+	{ 0x06000045, { 18, 2 } },
+	{ 0x06000046, { 20, 6 } },
+	{ 0x06000047, { 26, 5 } },
+	{ 0x0600004B, { 31, 8 } },
+	{ 0x0600004D, { 39, 5 } },
+	{ 0x0600004E, { 44, 7 } },
+	{ 0x06000057, { 51, 1 } },
+};
+extern const uint32_t g_rgctx_AddressablesImpl_LoadAssetAsync_TisTObject_tD2373F647EE9B0AA6520FC2026DC856E1E2A0209_mFF22F065AF21F82B4D575B6172CF846942363DE9;
+extern const uint32_t g_rgctx_AddressablesImpl_LoadAssetAsync_TisTObject_tC9776890BCD712E103DFF8BCC7477061A08AD7F2_m44E27F5DE374DC420CD27E3E4FFE664E036BA914;
+extern const uint32_t g_rgctx_AddressablesImpl_LoadAssetsAsync_TisTObject_tE44BFCA5ED06EA11BE6CA922C606E7D2684CAB42_m27BE6DA496B33CA7F810E4F43FB1DFC62F7B6B3E;
+extern const uint32_t g_rgctx_AsyncOperationHandle_1_add_CompletedTypeless_m8FC274E029D8A6A09B3025BB711843F753A6CAD9;
+extern const uint32_t g_rgctx_AsyncOperationHandle_1_t601AFD21F40BE3262224D983DF7B9FBFD4AA25AC;
+extern const uint32_t g_rgctx_ResourceManager_ProvideResource_TisTObject_t25812EB46FC6CA78E96373AE343B8ECF6BE99066_m28418ED3F9186A20656B7D7B290C7CD6237CEF02;
+extern const uint32_t g_rgctx_AddressablesImpl_TrackHandle_TisTObject_t25812EB46FC6CA78E96373AE343B8ECF6BE99066_m3B6059B77B65F1070D610880DB7A23439DC7B741;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass77_0_1_t636094BA2942F7DA47E211CE67A31E4BE6EF490D;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass77_0_1__ctor_m86406D8EC3C2B88EAE0A93DAD2066A27D206CB69;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass77_0_1_U3CLoadAssetWithChainU3Eb__0_mE12E461770A544B1B8C4F6E4508E5BF101429DD1;
+extern const uint32_t g_rgctx_Func_2_t6961B74AD1DB9DF61B78642A1E7E51A636B95232;
+extern const uint32_t g_rgctx_Func_2__ctor_mAD52CAD2F6931D6350F99FCB545C4E9B3B7F935F;
+extern const uint32_t g_rgctx_ResourceManager_CreateChainOperation_TisTObject_tE63E9FA7B6EE6805E71EEC79B904518AD71C8B53_mF5DAFC874B3C112D113503A84761D1A174E16FE4;
+extern const uint32_t g_rgctx_AddressablesImpl_LoadAssetWithChain_TisTObject_t01F8B1908B20A8D36EEA7B3B1F927685B3E7F363_m02D2D60AB3AF13C57F5EF71431D8D70567FEE1C5;
+extern const uint32_t g_rgctx_AddressablesImpl_TrackHandle_TisTObject_t01F8B1908B20A8D36EEA7B3B1F927685B3E7F363_m9BE1B86C2836147053D7DAFDEA56809E424F4D29;
+extern const uint32_t g_rgctx_TObject_t01F8B1908B20A8D36EEA7B3B1F927685B3E7F363;
+extern const uint32_t g_rgctx_ResourceManager_ProvideResource_TisTObject_t01F8B1908B20A8D36EEA7B3B1F927685B3E7F363_mD4C857293BA8070F74B580B61D151C2FDF1734EC;
+extern const uint32_t g_rgctx_ResourceManager_CreateCompletedOperationWithException_TisTObject_t01F8B1908B20A8D36EEA7B3B1F927685B3E7F363_m30CC3E73B06ED9E4898A6EDE0E8F787BEA752704;
+extern const uint32_t g_rgctx_ResourceManager_ProvideResources_TisTObject_t229A8C5CFB730ABC04A02FB31C45C03D38D679E7_mC994FE197A8FA888B6D99734D87E03C2EA196615;
+extern const uint32_t g_rgctx_AddressablesImpl_TrackHandle_TisIList_1_t92EFB6C2ABB70D599B9ECD7862A011DF66FD9D49_m3192C6BA1120B085BF74C0B4863DCBB0A29D28B7;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass88_0_1_t5551D4C63AAC8FA9146B12D59817FCEFF0472A07;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass88_0_1__ctor_m675D096E27CCE7D35C17D4C8A33448570E588A02;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass88_0_1_U3CLoadAssetsWithChainU3Eb__0_m302B6E3FAE110356E3EA84F8C6150127AF33FDBD;
+extern const uint32_t g_rgctx_Func_2_t3E6597C5D96435782D9620478696B659D85FB5A4;
+extern const uint32_t g_rgctx_Func_2__ctor_m3B37A5A40C0DDB8CC2B3FA1E2BAC19D9A62ABD39;
+extern const uint32_t g_rgctx_ResourceManager_CreateChainOperation_TisIList_1_t406609552E680D14BE0B532C39367988A6BDAF28_mF2053E6F8BC5897086DD382BB733B6054BCA9CCA;
+extern const uint32_t g_rgctx_AddressablesImpl_LoadAssetsWithChain_TisTObject_t8DDFF8BAB2663CE90EC5B8D8FA022DFAC43488FD_mAB0D8699F3A213AC931F1C5384E1845210725EAD;
+extern const uint32_t g_rgctx_AddressablesImpl_TrackHandle_TisIList_1_tB3E004E00A129D6C3E20168829D6E81A81CE6A19_m2F2FA12EE611B90656954DFCCA3AEC1E8D776430;
+extern const uint32_t g_rgctx_TObject_t8DDFF8BAB2663CE90EC5B8D8FA022DFAC43488FD;
+extern const uint32_t g_rgctx_ResourceManager_CreateCompletedOperationWithException_TisIList_1_tB3E004E00A129D6C3E20168829D6E81A81CE6A19_m0BBA5C2B6D0F14C7522B4350B0C7E29BC3ED0724;
+extern const uint32_t g_rgctx_AddressablesImpl_LoadAssetsAsync_TisTObject_t8DDFF8BAB2663CE90EC5B8D8FA022DFAC43488FD_m49E656ADB8C5B7E17D1F9AEAC9CB39DE1B0B2392;
+extern const uint32_t g_rgctx_TObject_t3C601753ED0244C9DCEE224B972F10132071EE19;
+extern const uint32_t g_rgctx_AsyncOperationHandle_1_get_Result_mE4064B3BDA7C838B0A6283BDD57033A4DC1BB6C4;
+extern const uint32_t g_rgctx_AsyncOperationHandle_1_t5A5F5CF35ED3515FA19142CFE8F795248C01A040;
+extern const uint32_t g_rgctx_TObject_t3C601753ED0244C9DCEE224B972F10132071EE19;
+extern const uint32_t g_rgctx_AsyncOperationHandle_1_get_ReferenceCount_m960F053841A3F1210F7586E3453008ED37A62207;
+extern const uint32_t g_rgctx_AsyncOperationHandle_1_op_Implicit_mF71F652E8022A65B907B28A06015E09F15718A6C;
+extern const uint32_t g_rgctx_AsyncOperationHandle_1_get_UnloadSceneOpExcludeReleaseCallback_m6770F9C8C414647BFFBCBBBB80297E4B83C3FA59;
+extern const uint32_t g_rgctx_AddressablesImpl_AutoReleaseHandleOnCompletion_TisTObject_t3C601753ED0244C9DCEE224B972F10132071EE19_m8DCB741A8E919E0E808DBB06ED96F0DC63E01AFA;
+extern const uint32_t g_rgctx_AddressablesImpl_U3CAutoReleaseHandleOnCompletionU3Eb__110_0_TisTObject_tF85FC479AB7BF40570C9F813E91A0E23273F41E6_m0AB4C841046DDCCEA46C907D88D429950A0CA4CA;
+extern const uint32_t g_rgctx_Action_1_tB4B427B96BDCADBE8F68FD96D13646A7D494286A;
+extern const uint32_t g_rgctx_Action_1__ctor_m0647EF3257E9AF50D4D333794C69F346E60AF940;
+extern const uint32_t g_rgctx_AsyncOperationHandle_1_add_Completed_m5B780F9145D845379DD10DE6E7BFF18D58DB0A38;
+extern const uint32_t g_rgctx_AsyncOperationHandle_1_t8AB9FC7FD1E709654A54EA11CF76D2F57F4D6177;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass111_0_1_t01BFDCEABC1A2B8B66A1CD971699467BEA1FAC7F;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass111_0_1__ctor_m8B6872548E961FF6A49437AF9F2E8E7AF13A9515;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass111_0_1_U3CAutoReleaseHandleOnCompletionU3Eb__0_m28F02DC6BA20F72C4E7188F9D363AEFB04D2D8F3;
+extern const uint32_t g_rgctx_Action_1_t9E2CA47FB1F2944316A7D57652A7DDF9D70B6D14;
+extern const uint32_t g_rgctx_Action_1__ctor_m782836079D0E73B68B826027B1222F7FC5DA1CC4;
+extern const uint32_t g_rgctx_AsyncOperationHandle_1_add_Completed_m3F9662BCABE37DE0C06BC7961C1434EAE60ED07E;
+extern const uint32_t g_rgctx_AsyncOperationHandle_1_tCFA14F69592FB50189FC5510BABDB0BC2A316214;
+extern const uint32_t g_rgctx_AddressablesImpl_Release_TisTObject_t1606B45842F0BAE5EAF52AA275B4CF4628B76717_mCFF5BA33E0744AD66B4824EB99822942F6879B9F;
+extern const uint32_t g_rgctx_AddressablesImpl_LoadAssetAsync_TisTObject_t91E2458F47D195A8AF06F09F0EDEA138A01583E3_mC6444DC11B850CAFD6C89BD30290766C2A2DD4B1;
+extern const uint32_t g_rgctx_AddressablesImpl_LoadAssetsAsync_TisTObject_tD424FEC722DF4F2325F8944800702D604C22CD99_m8ECAA8F105ADF42A15EF07D1B34B45891C841220;
+extern const uint32_t g_rgctx_AsyncOperationHandle_1_set_UnloadSceneOpExcludeReleaseCallback_mC099459F99759563EBFE8D4AC962C53C3DB41BAA;
+extern const uint32_t g_rgctx_AsyncOperationHandle_1_t99B57DB3729C05E67E6A0AA7BFB136AB2F8D7693;
+extern const uint32_t g_rgctx_AddressablesImpl_Release_TisTObject_t2A84DE392B7F5936F3A58540B54B19219F6A3199_mC2288DBCD8BEBD3CF6D882406D814B8D647FFFC5;
+static const Il2CppRGCTXDefinition s_rgctxValues[57] = 
+{
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AddressablesImpl_LoadAssetAsync_TisTObject_tD2373F647EE9B0AA6520FC2026DC856E1E2A0209_mFF22F065AF21F82B4D575B6172CF846942363DE9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AddressablesImpl_LoadAssetAsync_TisTObject_tC9776890BCD712E103DFF8BCC7477061A08AD7F2_m44E27F5DE374DC420CD27E3E4FFE664E036BA914 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AddressablesImpl_LoadAssetsAsync_TisTObject_tE44BFCA5ED06EA11BE6CA922C606E7D2684CAB42_m27BE6DA496B33CA7F810E4F43FB1DFC62F7B6B3E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncOperationHandle_1_add_CompletedTypeless_m8FC274E029D8A6A09B3025BB711843F753A6CAD9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_AsyncOperationHandle_1_t601AFD21F40BE3262224D983DF7B9FBFD4AA25AC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ResourceManager_ProvideResource_TisTObject_t25812EB46FC6CA78E96373AE343B8ECF6BE99066_m28418ED3F9186A20656B7D7B290C7CD6237CEF02 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AddressablesImpl_TrackHandle_TisTObject_t25812EB46FC6CA78E96373AE343B8ECF6BE99066_m3B6059B77B65F1070D610880DB7A23439DC7B741 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass77_0_1_t636094BA2942F7DA47E211CE67A31E4BE6EF490D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass77_0_1__ctor_m86406D8EC3C2B88EAE0A93DAD2066A27D206CB69 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass77_0_1_U3CLoadAssetWithChainU3Eb__0_mE12E461770A544B1B8C4F6E4508E5BF101429DD1 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Func_2_t6961B74AD1DB9DF61B78642A1E7E51A636B95232 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Func_2__ctor_mAD52CAD2F6931D6350F99FCB545C4E9B3B7F935F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ResourceManager_CreateChainOperation_TisTObject_tE63E9FA7B6EE6805E71EEC79B904518AD71C8B53_mF5DAFC874B3C112D113503A84761D1A174E16FE4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AddressablesImpl_LoadAssetWithChain_TisTObject_t01F8B1908B20A8D36EEA7B3B1F927685B3E7F363_m02D2D60AB3AF13C57F5EF71431D8D70567FEE1C5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AddressablesImpl_TrackHandle_TisTObject_t01F8B1908B20A8D36EEA7B3B1F927685B3E7F363_m9BE1B86C2836147053D7DAFDEA56809E424F4D29 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TObject_t01F8B1908B20A8D36EEA7B3B1F927685B3E7F363 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ResourceManager_ProvideResource_TisTObject_t01F8B1908B20A8D36EEA7B3B1F927685B3E7F363_mD4C857293BA8070F74B580B61D151C2FDF1734EC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ResourceManager_CreateCompletedOperationWithException_TisTObject_t01F8B1908B20A8D36EEA7B3B1F927685B3E7F363_m30CC3E73B06ED9E4898A6EDE0E8F787BEA752704 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ResourceManager_ProvideResources_TisTObject_t229A8C5CFB730ABC04A02FB31C45C03D38D679E7_mC994FE197A8FA888B6D99734D87E03C2EA196615 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AddressablesImpl_TrackHandle_TisIList_1_t92EFB6C2ABB70D599B9ECD7862A011DF66FD9D49_m3192C6BA1120B085BF74C0B4863DCBB0A29D28B7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass88_0_1_t5551D4C63AAC8FA9146B12D59817FCEFF0472A07 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass88_0_1__ctor_m675D096E27CCE7D35C17D4C8A33448570E588A02 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass88_0_1_U3CLoadAssetsWithChainU3Eb__0_m302B6E3FAE110356E3EA84F8C6150127AF33FDBD },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Func_2_t3E6597C5D96435782D9620478696B659D85FB5A4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Func_2__ctor_m3B37A5A40C0DDB8CC2B3FA1E2BAC19D9A62ABD39 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ResourceManager_CreateChainOperation_TisIList_1_t406609552E680D14BE0B532C39367988A6BDAF28_mF2053E6F8BC5897086DD382BB733B6054BCA9CCA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AddressablesImpl_LoadAssetsWithChain_TisTObject_t8DDFF8BAB2663CE90EC5B8D8FA022DFAC43488FD_mAB0D8699F3A213AC931F1C5384E1845210725EAD },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AddressablesImpl_TrackHandle_TisIList_1_tB3E004E00A129D6C3E20168829D6E81A81CE6A19_m2F2FA12EE611B90656954DFCCA3AEC1E8D776430 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TObject_t8DDFF8BAB2663CE90EC5B8D8FA022DFAC43488FD },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ResourceManager_CreateCompletedOperationWithException_TisIList_1_tB3E004E00A129D6C3E20168829D6E81A81CE6A19_m0BBA5C2B6D0F14C7522B4350B0C7E29BC3ED0724 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AddressablesImpl_LoadAssetsAsync_TisTObject_t8DDFF8BAB2663CE90EC5B8D8FA022DFAC43488FD_m49E656ADB8C5B7E17D1F9AEAC9CB39DE1B0B2392 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TObject_t3C601753ED0244C9DCEE224B972F10132071EE19 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncOperationHandle_1_get_Result_mE4064B3BDA7C838B0A6283BDD57033A4DC1BB6C4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_AsyncOperationHandle_1_t5A5F5CF35ED3515FA19142CFE8F795248C01A040 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TObject_t3C601753ED0244C9DCEE224B972F10132071EE19 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncOperationHandle_1_get_ReferenceCount_m960F053841A3F1210F7586E3453008ED37A62207 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncOperationHandle_1_op_Implicit_mF71F652E8022A65B907B28A06015E09F15718A6C },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncOperationHandle_1_get_UnloadSceneOpExcludeReleaseCallback_m6770F9C8C414647BFFBCBBBB80297E4B83C3FA59 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AddressablesImpl_AutoReleaseHandleOnCompletion_TisTObject_t3C601753ED0244C9DCEE224B972F10132071EE19_m8DCB741A8E919E0E808DBB06ED96F0DC63E01AFA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AddressablesImpl_U3CAutoReleaseHandleOnCompletionU3Eb__110_0_TisTObject_tF85FC479AB7BF40570C9F813E91A0E23273F41E6_m0AB4C841046DDCCEA46C907D88D429950A0CA4CA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Action_1_tB4B427B96BDCADBE8F68FD96D13646A7D494286A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Action_1__ctor_m0647EF3257E9AF50D4D333794C69F346E60AF940 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncOperationHandle_1_add_Completed_m5B780F9145D845379DD10DE6E7BFF18D58DB0A38 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_AsyncOperationHandle_1_t8AB9FC7FD1E709654A54EA11CF76D2F57F4D6177 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass111_0_1_t01BFDCEABC1A2B8B66A1CD971699467BEA1FAC7F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass111_0_1__ctor_m8B6872548E961FF6A49437AF9F2E8E7AF13A9515 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass111_0_1_U3CAutoReleaseHandleOnCompletionU3Eb__0_m28F02DC6BA20F72C4E7188F9D363AEFB04D2D8F3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Action_1_t9E2CA47FB1F2944316A7D57652A7DDF9D70B6D14 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Action_1__ctor_m782836079D0E73B68B826027B1222F7FC5DA1CC4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncOperationHandle_1_add_Completed_m3F9662BCABE37DE0C06BC7961C1434EAE60ED07E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_AsyncOperationHandle_1_tCFA14F69592FB50189FC5510BABDB0BC2A316214 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AddressablesImpl_Release_TisTObject_t1606B45842F0BAE5EAF52AA275B4CF4628B76717_mCFF5BA33E0744AD66B4824EB99822942F6879B9F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AddressablesImpl_LoadAssetAsync_TisTObject_t91E2458F47D195A8AF06F09F0EDEA138A01583E3_mC6444DC11B850CAFD6C89BD30290766C2A2DD4B1 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AddressablesImpl_LoadAssetsAsync_TisTObject_tD424FEC722DF4F2325F8944800702D604C22CD99_m8ECAA8F105ADF42A15EF07D1B34B45891C841220 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncOperationHandle_1_set_UnloadSceneOpExcludeReleaseCallback_mC099459F99759563EBFE8D4AC962C53C3DB41BAA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_AsyncOperationHandle_1_t99B57DB3729C05E67E6A0AA7BFB136AB2F8D7693 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AddressablesImpl_Release_TisTObject_t2A84DE392B7F5936F3A58540B54B19219F6A3199_mC2288DBCD8BEBD3CF6D882406D814B8D647FFFC5 },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Addressables_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_Addressables_CodeGenModule = 
+{
+	"Unity.Addressables.dll",
+	233,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	17,
+	s_rgctxIndices,
+	57,
+	s_rgctxValues,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
